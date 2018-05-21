@@ -3,10 +3,13 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  position:relative;
+  /*margin-top: 3rem;*/
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #bbb;
   font-family: 'Libre Franklin', sans-serif;
+  background-color: #333;
 }
 
 .cardinal {
@@ -16,6 +19,49 @@ body {
 .gold {
 	color: #ffcc00;
 }
+
+a {
+  color: #ffcc00;
+}
+a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+.shadow {
+   box-shadow: 0rem .25rem .75rem #000;
+  /*box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);*/
+}
+
+#publication-list a {
+  color: #bbb;
+}
+#publication-list h2{
+  color: #ffcc00;
+}
+
+.primary-navbar {
+  background-color: #222;
+}
+
+.secondary-navbar {
+  top:4.6rem;
+  background-color: #151515;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #000;
+  color: #999;
+}
+
+/*fixes auto scrolling to href id so top of section isn't covered by navbar*/
+section:before {
+    height: 195px;
+    margin-top: -195px;
+    content: "";
+    display: block;
+    visibility: hidden;
+  }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -38,6 +84,8 @@ body {
   max-height: 32rem;*/
   background-color: #777;
 }
+
+/* making the carousel height responsive */
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -46,10 +94,22 @@ body {
   height: auto;
   margin: auto; /*this should keep the image vertically centered, crop the top and bottom, full width of the carousel w/o distortion*/
 }
-
-.shadow {
-	box-shadow: 0px 0.5px 8px #222;
+@media (min-width: 200px) {
+  .carousel-item { height: 14rem !important ;}
 }
+@media (min-width: 576px) {
+  .carousel-item { height: 19rem !important; }
+}
+@media (min-width: 768px) {
+  .carousel-item { height: 24rem !important; }
+}
+@media (min-width: 992px) {
+  .carousel-item { height: 29rem !important ;}
+}
+@media, (min-width: 1200px) {
+  .carousel-item { height: 36rem !important ; }
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -105,20 +165,3 @@ body {
   }
 }
 
-@media (min-width: 200px) {
-  .carousel-item { height: 14rem !important ;}
-}
-
-@media (min-width: 576px) {
-  .carousel-item { height: 19rem !important; }
-}
-
-@media (min-width: 768px) {
-  .carousel-item { height: 24rem !important; }
-}
-@media (min-width: 992px) {
-  .carousel-item { height: 29rem !important ;}
-}
-@media, (min-width: 1200px) {
-  .carousel-item { height: 36rem !important ; }
-}
