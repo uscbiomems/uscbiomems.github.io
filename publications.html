@@ -1,42 +1,52 @@
 ---
-title: Publications
-id: publications
+title: Publications - USC Biomedical Microsystems Laboratory
+id: pub
+active_home: 
+active_about: 
+active_research: 
+active_people: 
+active_pub: active
+active_contact: 
 ---
 {% include header.html %}
 
-<nav id="publication-year" class="navbar nav nav-pills navbar-dark shadow sticky-top secondary-navbar">
+<!-- secondary navbar 
+=================================================================== -->
+<nav class="navbar navbar-dark shadow sticky-top secondary-navbar">
 <!-- <nav id="publication-year" class="col-1 navbar navbar-dark bg-dark nav nav-pills flex-column" style="text-align:center"> -->
-  <div class="container"> 
+  	<div class="container">
   	  	
   	<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#YearNavbarCollapse" aria-controls="YearNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button> -->
 
-		<div class="d-flex flex-wrap" >
-	  	<a class="navbar-brand" href="#">Year</a>
-	  	<a class="nav-link active" href="#y2017">2017</a>
-	  	<a class="nav-link" href="#y2016">2016</a>
-	  	<a class="nav-link" href="#y2015">2015</a>
-	  	<a class="nav-link" href="#y2014">2014</a>
-	  	<a class="nav-link" href="#y2013">2013</a>
-	  	<a class="nav-link" href="#y2012">2012</a>
-	  	<a class="nav-link" href="#y2011">2011</a>
-	  	<a class="nav-link" href="#y2010">2010</a>
-	  	<a class="nav-link" href="#y2009">2009</a>
-	  	<a class="nav-link" href="#y2008">2008</a>
-	  	<a class="nav-link" href="#y2007">2007</a>
-	  	<a class="nav-link" href="#y2006">2006</a>
-	  	<a class="nav-link" href="#y2005">2005</a>
-	  	<a class="nav-link" href="#y2004">2004</a>
-	  	<a class="nav-link" href="#y2003">2003</a>
-	  	<a class="nav-link" href="#y2001">2001</a>
-	  	<a class="nav-link" href="#y2000">2000</a>
-	  	<a class="nav-link" href="#y1999">1999</a>
-	  </div>
-  </div>
+		<nav class="nav nav-pills d-flex flex-wrap" id="publication-year">
+		  	<a class="navbar-brand" href="#">Year</a>
+		  	<a class="nav-link" href="#y2017">2017</a>
+		  	<a class="nav-link" href="#y2016">2016</a>
+		  	<a class="nav-link" href="#y2015">2015</a>
+		  	<a class="nav-link" href="#y2014">2014</a>
+		  	<a class="nav-link" href="#y2013">2013</a>
+		  	<a class="nav-link" href="#y2012">2012</a>
+		  	<a class="nav-link" href="#y2011">2011</a>
+		  	<a class="nav-link" href="#y2010">2010</a>
+		  	<a class="nav-link" href="#y2009">2009</a>
+		  	<a class="nav-link" href="#y2008">2008</a>
+		  	<a class="nav-link" href="#y2007">2007</a>
+		  	<a class="nav-link" href="#y2006">2006</a>
+		  	<a class="nav-link" href="#y2005">2005</a>
+		  	<a class="nav-link" href="#y2004">2004</a>
+		  	<a class="nav-link" href="#y2003">2003</a>
+		  	<a class="nav-link" href="#y2001">2001</a>
+		  	<a class="nav-link" href="#y2000">2000</a>
+		  	<a class="nav-link" href="#y1999">1999</a>
+	  	</nav>
+  	</div>
 </nav>
 
-<body>
+<!-- body 
+=====================================================================-->
+<body data-spy="scroll" data-target="#publication-year" data-offset="0">
 	<div class="container">
 	{% include publication-list.html %}
 	</div>

@@ -1,0 +1,10 @@
+docs_list_title: BML Pages
+docs:
+
+- title: Home - USC Biomedical Microsystems Laboratory
+  url: index.html
+  id: home
+
+- title: Publications - USC Biomedical Microsystems Laboratory
+  url: publications.html
+  id: pub

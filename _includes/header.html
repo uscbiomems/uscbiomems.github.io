@@ -16,13 +16,13 @@
 
 
 <!-- logos etc above navbar -->
-  <div class="container-fluid">
+  <div class="container">
     <div class="row float-right" style="margin-top:-2.5rem">
-      <div>
+      <!-- <div>
         <a href="https://biomems.usc.edu"> <img src="/images/BML_Logo.png" alt="biomems.usc.edu" style="max-height:5rem"></a>
-      </div>
+      </div> -->
       <div>
-        <a href="https://www.usc.edu"> <img src="/images/usc-shield-name-gray.jpg" alt="USC" style="max-height:5rem"></a>
+        <a href="https://www.usc.edu"> <img src="/images/usc-shield-name-white.png" alt="USC" style="max-height:5rem"></a>
       </div>
     </div>
   </div>
@@ -31,7 +31,7 @@
   </div>
 
   <!-- main navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark primary-navbar shadow sticky-top">
+  <nav class="navbar navbar-expand-md primary-navbar shadow sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="/images/BML_Logo.png" alt="biomems.usc.edu" style="max-height:3rem"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,14 +39,23 @@
       </button>
       <div class="collapse navbar-collapse" id="MainNavbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item">
+            <a class="nav-link {{ page.active_home }}" href="/index.html" id="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link {{ page.active_about }}" href="/about.html" id="about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link {{ page.active_research }}" href="/research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ page.active_people }}" href="/people.html" id="people">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ page.active_pub }}" href="/publications.html" id="pub">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ page.active_contact }}" href="/contact.html" id="contact">Contact</a>
           </li>
         </ul>
         <!-- <form class="form-inline mt-2 mt-md-0">
