@@ -27,7 +27,9 @@ a:hover {
   color: #ffcc00;
   text-decoration: underline;
 }
-
+h1 a:hover {
+  text-decoration: none;
+}
 .shadow {
    box-shadow: 0rem .25rem .75rem #000;
   /*box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);*/
@@ -54,7 +56,7 @@ a:hover {
 }
 
 .nav-pills .nav-link.active {
-  outline: .001rem solid #990000;
+  outline: .1px solid #990000;
   background-color: #151515;
   color: #ffcc00;
 }
@@ -63,7 +65,7 @@ a:hover {
   /*background-color: #1a1a1a;*/
   /*font-weight: bolder;*/
   /*color: #990000;*/
-  outline: .001rem solid #990000;
+  outline: .1px solid #990000;
 }
 
 /*fixes auto scrolling to href id so top of section isn't covered by navbar*/
