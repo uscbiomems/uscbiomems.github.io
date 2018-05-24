@@ -1,3 +1,4 @@
 name: USC Biomedical Microsystems Laboratory
 markdown: kramdown
+baseurl: /
 url: http://uscbiomems.github.io/
