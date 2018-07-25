@@ -2,14 +2,22 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+
 body {
   position:relative;
+  height: 100%;
   /*margin-top: 3rem;*/
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #ddd;
+  /*padding-top: 3rem;*/
   font-family: 'Libre Franklin', sans-serif;
-  background-color: #333;
+  /*color: #ddd;*/ /*dark version*/ 
+  /*background-color: #333;*/ /*dark version*/
+  color: #353535; /*light version*/
+  background-color: #fff; /*light version*/
+}
+
+#title a {
+  color: #353535;
+  /*font-weight: lighter;*/
 }
 
 .cardinal {
@@ -21,10 +29,10 @@ body {
 }
 
 a {
-  color: #ffcc00;
+  color: #990000;
 }
 a:hover {
-  color: #ffcc00;
+  color: #990000;
   text-decoration: underline;
 }
 h1 a:hover {
@@ -36,36 +44,62 @@ h1 a:hover {
 }
 
 #publication-list a {
-  color: #ddd;
+  /*color: #ddd;*/ /*dark version*/
+  color: #353535;
 }
 #publication-list h2{
-  color: #ffcc00;
+  /*color: #ffcc00;*/ /*dark version*/
+  color: #990000;
 }
 
 .primary-navbar {
-  background-color: #222;
+  /*background-color: #222;*/ /*dark version*/
+  background-color: #353535;
+  z-index: 990;
+  height: 4.7rem;
 }
 
 .primary-navbar a {
+  /*color: #ddd;*/ /*dark version*/
   color: #ddd;
 }
 
 .secondary-navbar {
   top:4.6rem;
-  background-color: #151515;
+  /*background-color: #151515;*/ /*dark version*/
+  background-color: #333;
+  z-index: 980;
 }
 
-.nav-pills .nav-link.active {
-  outline: .1px solid #990000;
-  background-color: #151515;
+.secondary-navbar a {
   color: #ffcc00;
+}
+.nav-pills .nav-link.active {
+  /*outline: .1px solid #990000;*/ /*dark version*/
+  /*background-color: #151515;*/ /*dark version*/
+  /*color: #ffcc00;*/ /*dark version*/
+  outline: .1px solid #ffcc00; 
+  background-color: #333; 
+  color: #ffcc00; 
 }
 
 .nav-item .active{
   /*background-color: #1a1a1a;*/
   /*font-weight: bolder;*/
   /*color: #990000;*/
-  outline: .1px solid #990000;
+  /*outline: .1px solid #ffcc00;*/
+  color: #ffcc00;
+}
+
+footer {
+  background-color: #353535;
+  margin-top: 2rem;
+  color: #ddd;
+  padding: 2rem;
+  height: 100%;
+}
+footer a {
+  color: #ffcc00;
 }
 
 /*fixes auto scrolling to href id so top of section isn't covered by navbar*/
@@ -96,11 +130,20 @@ section:before {
 .carousel-item {
   /*min-height: 16rem;
   max-height: 32rem;*/
-  background-color: #777;
+  background-color: #353535;
 }
 
 /* making the carousel height responsive */
 .carousel-item > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  margin: auto; /*this should keep the image vertically centered, crop the top and bottom, full width of the carousel w/o distortion*/
+}
+
+.carousel-item > a > img { /*included this so img responsiveness also works when in a link*/
   position: absolute;
   top: 0;
   bottom: 0;
@@ -125,20 +168,27 @@ section:before {
 }
 
 
-/* MARKETING CONTENT
+/* BIOGRAPHY CONTENT
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+/* Center align the text within the three columns */
+.bio .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
+/*.bio h2 {
   font-weight: 400;
-}
-.marketing .col-lg-4 p {
+}*/
+.bio p {
   margin-right: .75rem;
   margin-left: .75rem;
+  /*text-align: left;*/
+}
+.bio img {
+  width:15rem;
+  height:15rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 
 
@@ -146,7 +196,7 @@ section:before {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -156,6 +206,9 @@ section:before {
   letter-spacing: -.05rem;
 }
 
+.featurette img {
+  margin: 2rem;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -168,9 +221,9 @@ section:before {
     line-height: 1.4;
   }
 
-  .featurette-heading {
+/*  .featurette-heading {
     font-size: 50px;
-  }
+  }*/
 }
 
 @media (min-width: 62em) {
@@ -179,3 +232,11 @@ section:before {
   }
 }
 
+.twitter-timeline {
+  outline: 0.1px solid #ddd;
+}
+
+#photos img {
+  width: 100%;
+  margin: 2rem;
+}

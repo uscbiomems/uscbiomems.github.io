@@ -11,51 +11,50 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/custom.css">
 </head>
 
 
 <!-- logos etc above navbar -->
   <div class="container">
-    <div class="row float-right" style="margin-top:-2.5rem">
+    <div class="row float-right">
       <!-- <div>
         <a href="https://biomems.usc.edu"> <img src="/images/BML_Logo.png" alt="biomems.usc.edu" style="max-height:5rem"></a>
       </div> -->
       <div>
-        <a href="https://www.usc.edu"> <img src="{{ site.baseurl }}/images/usc-shield-name-white.png" alt="USC" style="max-height:5rem"></a>
+        <a href="https://www.usc.edu"> <img src="{{ site.baseurl }}images/PrimShield-Word_RegShieldRGB_CardOnWhite.jpg" alt="USC" style="max-height:6rem"></a>
       </div>
     </div>
+    <div class="row">
+      <h1 id="title"><a href="{{ site.baseurl }}index.html"><span class="cardinal">USC</span> Biomedical Microsystems Laboratory</a></h1>
+    </div>
   </div>
-  <div class="container">
-    <h1 class="gold"><a href="/index.html">Biomedical Microsystems Laboratory</a></h1>
-  </div>
-
   <!-- main navbar -->
   <nav class="navbar navbar-expand-md primary-navbar shadow sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="/index.html"><img src="{{ site.baseurl }}/images/BML_Logo.png" alt="biomems.usc.edu" style="max-height:3rem"></a>
+      <!-- <a class="navbar-brand" href="/index.html"><img src="{{ site.baseurl }}images/BML_Logo.png" alt="biomems.usc.edu" style="max-height:3rem"></a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="MainNavbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link {{ page.active_home }}" href="/index.html" id="home">Home</a>
+            <a class="nav-link {{ page.active_home }}" href="{{ site.baseurl }}index.html" id="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ page.active_about }}" href="/about.html" id="about">About</a>
+            <a class="nav-link {{ page.active_about }}" href="{{ site.baseurl }}about.html" id="about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ page.active_research }}" href="/research.html">Research</a>
+            <a class="nav-link {{ page.active_research }}" href="{{ site.baseurl }}research.html">Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ page.active_people }}" href="/people.html" id="people">People</a>
+            <a class="nav-link {{ page.active_people }}" href="{{ site.baseurl }}people.html" id="people">People</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ page.active_pub }}" href="/publications.html" id="pub">Publications</a>
+            <a class="nav-link {{ page.active_pub }}" href="{{ site.baseurl }}publications.html" id="pub">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ page.active_contact }}" href="/contact.html" id="contact">Contact</a>
+            <a class="nav-link {{ page.active_contact }}" href="{{ site.baseurl }}contact.html" id="contact">Contact</a>
           </li>
         </ul>
         <!-- <form class="form-inline mt-2 mt-md-0">

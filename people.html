@@ -9,11 +9,1014 @@ active_pub:
 active_contact: 
 ---
 {% include header.html %}			
-<body>
-  <div class="container">
-  	<h1>This is a placeholder for the new website of the USC BioMEMS Laboratory</h1>
-      <p>Find our old website at <a href="biomems.usc.edu">biomems.usc.edu</a></p>
-  </div>
+<!-- secondary navbar 
+=================================================================== -->
+<nav class="navbar navbar-dark shadow sticky-top secondary-navbar">
+<!-- <nav id="publication-year" class="col-1 navbar navbar-dark bg-dark nav nav-pills flex-column" style="text-align:center"> -->
+  	<div class="container">
+  	  	
+  	<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#YearNavbarCollapse" aria-controls="YearNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+		<nav class="nav nav-pills d-flex flex-wrap" id="bios">
+		  	<a class="nav-link" href="#PI">Principal Investigator</a>
+		  	<a class="nav-link" href="#postdoc">Post-Doctoral Scholars</a>
+		  	<a class="nav-link" href="#gradstudents">Graduate Students</a>
+		  	<!-- <a class="nav-link" href="#visiting">Visiting Scholars</a> -->
+		  	<a class="nav-link" href="#alumni">Former Lab Members</a>
+	  	</nav>
+  	</div>
+</nav>
+
+<!-- body 
+=====================================================================-->
+<body data-spy="scroll" data-target="#bios" data-offset="1">
+	<div class="container bio">
+		<br>
+		<section id="PI">
+			<div class="row">
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ellis.png" alt="Ellis Meng" >
+	        <h4>Ellis Meng, PhD</h4>
+	        <h5>Principal Investigator</h5>
+	        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ellis">About Ellis</button>
+        </div>
+	        <!-- modal -->
+        <div class="modal fade" id="ellis" tabindex="-1" role="dialog" aria-labelledby="modaltitle-ellis" aria-hidden="true">
+				  <div class="modal-dialog modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="modaltitle-ellis">Ellis Meng, PhD</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <div class="container-fluid">
+							    <div class="row">
+							      <div class="col-lg-4"><img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ellis.png" alt="Ellis Meng" ></div>
+							      <div class="col-lg-8 align-self-center">
+							      	<p> 
+							      		Gabilan Distinguished Professorship in Science and Engineering, Dwight C. and Hildagarde E. Baum Chair, and Professor of Biomedical Engineering and Electrical Engineering-Electrophysics<br><br>
+												2003 Ph.D. Electrical Engineering, Caltech <br>
+												1998 M.S. Electrical Engineering, Caltech <br>
+												1997 B.S. Engineering and Applied Science, Caltech <br><br>
+												ellis [dot] meng [at] usc [dot] edu
+											</p>
+							      </div>
+							    </div>
+							    <hr>
+							    <div class="row">
+							      <p>
+							      	Ellis Meng is Professor of Biomedical and Electrical Engineering in the Viterbi School of Engineering at the University of Southern California and the Dwight C. and Hildagarde E. Baum Chair of the Department of Biomedical Engineering. She received the B.S. degree in engineering and applied science and the M.S. and Ph.D. degrees in electrical engineering from the California Institute of Technology (Caltech), Pasadena, in 1997, 1998, and 2003, respectively. In 2004, she founded the Biomedical Microsystems Laboratory which conducts research on biocompatible polymer technology and micromachining, sensors and actuators, microfluidics, and implantable and biomedical microelectromechanical systems (MEMS). Her honors include the NSF CAREER award, Wallace H. Coulter Foundation Early Career Award, 2009 TR35 Young Innovator Under 35, Viterbi Early Career Chair, ASEE Curtis W. McGraw Research Award, AIMBE Fellow, and IEEE Fellow. She serves on the editorial board of the Journal of Micromechanics and Microengineering and Frontiers in Mechanical Engineering. In 2017, she co-chaired the annual IEEE MEMS conference. She is also an active educator and authored a textbook on bioMEMS. Dr. Meng is a member of Tau Beta Pi, IEEE, AIMBE, ASME, BMES, and ASEE.
+						      	</p>
+							    </div>
+							  </div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<hr>	
+		</section>
+
+<!-- POSTDOCS -->
+		<section id="postdoc">
+			<div class="row">
+				
+				<!-- KEE -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/kee_scholten.png" alt="Kee Scholten" >
+	        <h4>Kee Scholten, PhD</h4>
+	        <h5>Post-Doctoral Scholar</h5>
+	        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kee">About Kee</button>
+        </div>
+	        <!-- modal -->
+        <div class="modal fade" id="kee" tabindex="-1" role="dialog" aria-labelledby="modaltitle-kee" aria-hidden="true">
+				  <div class="modal-dialog modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="modaltitle-kee">Kee Scholten, PhD</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <div class="container-fluid">
+							    <div class="row">
+							      <div class="col-lg-4"><img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/kee_scholten.png" alt="Kee Scholten" ></div>
+							      <div class="col-lg-8 align-self-center">
+							      	<p> 
+							      		2014 Ph.D. Applied Physics, University of Michigan <br>
+										2009 B.S. Applied Physics, Caltech<br><br>
+										kscholte [at] usc [dot] edu
+									</p>
+							      </div>
+							    </div>
+							    <hr>
+							    <div class="row">
+							      <p>
+							      	Kee graduated from Caltech in May 2009 with a BS in Applied Physics. He completed his PhD in Applied Physics at the University of Michigan under Professor Edward Zellers in 2014, with a focus on opto/microfluidic sensors for gas-phase micro-devices. His research interests are in microfluidic sensors, and the synthesis of microfabricated devices with nanoscale structures. Outside of lab Kee enjoys reading, jogging, and traveling.​
+						      	</p>
+							    </div>
+							  </div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        </div>
+				    </div>
+				  </div>
+				</div>
+				
+				<!-- ALEX -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/alex.jpg" alt="Alex Baldwin" >
+			        <h4>Alex Baldwin, PhD</h4>
+			        <h5>Post-Doctoral Scholar</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#alex">About Alex</button>
+        		</div>
+	        <!-- modal -->
+        		<div class="modal fade" id="alex" tabindex="-1" role="dialog" aria-labelledby="modaltitle-alex" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+				    		<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-alex">Alex Baldwin, PhD</h5>
+				        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        			<span aria-hidden="true">&times;</span>
+				        		</button>
+				      		</div>
+				      		<div class="modal-body">
+				        		<div class="container-fluid">
+							    	<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/alex.jpg" alt="Alex Baldwin" >
+							    		</div>
+						      			<div class="col-lg-8 align-self-center">
+									      	<p> 
+									      		2018 Ph.D. Biomedical Engineering, USC <br>
+									      		2015 M.S. Biomedical Engineering, USC <br>
+												2013 B.S. University of Arkansas <br><br>
+												abbaldwi [at] usc [dot] edu
+											</p>
+							    		</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	Alex Baldwin received a B.S. degree in electrical engineering from the University of Arkansas, Fayetteville in 2013 and the M.S. and Ph.D. degrees in biomedical engineering from the University of Southern California (USC) in 2015 and 2018, respectively. His research interests include polymer micromachining, implantable biomedical sensors, and novel microelectromechanical devices which operate using electrochemical impedance. Dr. Baldwin is a recipient of the USC Viterbi Fellowship and the Alfred E. Mann Institute Fellowship. He is currently working on improving the treatment of hydrocephalus using chronically implanted wireless sensors.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+	
+				
+			</div> <!-- close postdoc row -->
+			<hr>	
+		</section>
+
+<!-- GRADSTUDENTS -->
+		<section id="gradstudents">
+			<div class="row">
+				
+	<!-- TREVOR -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/trevor.jpg" alt="Trevor Hudson" >
+			        <h4>Trevor Hudson</h4>
+			        <h5>Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#trevor">About Trevor</button>
+		        </div>
+	        <!-- modal -->
+		        <div class="modal fade" id="trevor" tabindex="-1" role="dialog" aria-labelledby="modaltitle-trevor" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+					    <div class="modal-content">
+						    <div class="modal-header">
+						        <h5 class="modal-title" id="modaltitle-trevor">Trevor Hudson</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						    		<span aria-hidden="true">&times;</span>
+						        </button>
+						    </div>
+						    <div class="modal-body">
+						        <div class="container-fluid">
+								    <div class="row">
+							        	<div class="col-lg-4">
+							        		<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/trevor.jpg" alt="Trevor Hudson" >
+							        	</div>
+										<div class="col-lg-8 align-self-center">
+											<p> 
+												2014 B.S. Bioengineering, Rice University<br><br>
+												tqhudson [at] usc [dot] edu
+											</p>
+										</div>
+							    	</div>
+							    	<hr>
+								    <div class="row">
+								    	<p>
+									      	Trevor graduated from Rice University with a BS in Bioengineering in 2014. He helped develop a novel cell-sorting device at part of a summer internship at the Naval Research Lab in Washington, D.C. in 2013. In 2015, he joined the USC BML, and is currently working on a device to wirelessly detect shunt failure in hydrocephalic patients. In his free time he enjoys good television, exercising, and improving his poor cooking skills.
+								      	</p>
+								    </div>
+								</div>
+							</div>
+						    <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        </div>
+						</div>
+					</div>
+				</div>
+				
+	<!-- CHRIS -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/chris.jpg" alt="Christopher Larson" >
+			        <h4>Christopher Larson</h4>
+			        <h5>Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#chris">About Christopher</button>
+		        </div>
+	        <!-- modal -->
+        		<div class="modal fade" id="chris" tabindex="-1" role="dialog" aria-labelledby="modaltitle-chris" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-chris">Christopher Larson</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/chris.jpg" alt="Christopher Larson" >
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2015 B.S. Biomedical (Electrical) Engineering, USC <br>
+												2009 B.M. Music Composition, Biola University <br><br>
+												larsonce [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	Christopher Larson completed his bachelor's degree in Biomedical (Electrical) Engineering at USC in 2015. His research interests include implantable MEMS devices and neural interfaces, especially as applied in bioelectronic medicine. He previously studied music composition and still makes music. Originally from "Minnesconsin," he enjoys smoky cheeses, bratwursts, craft brews, and cheering on the Twins and Vikings no matter how often they break his heart. His free time is spent reading, hiking, roadtripping, and eating with his wife and dog.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- JESS -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jessica.jpg" alt="Jessica Ortigoza" >
+			        <h4>Jessica Ortigoza</h4>
+			        <h5>Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#jessica">About Jessica</button>
+		        </div>
+	        <!-- modal -->
+        		<div class="modal fade" id="jessica" tabindex="-1" role="dialog" aria-labelledby="modaltitle-jessica" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-jessica">Jessica Ortigoza</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jessica.jpg" alt="Jessica Ortigoza">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2013 B.S. Mechatronics Engineering, National Autonomous University of Mexico (UNAM)<br><br>
+												jortigoz [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	Jessica Ortigoza-Diaz received the B.S. degree in Mechatronics Engineering from the National Autonomous University of Mexico (UNAM) in 2013. In 2012, She did a Summer Research Internship at the Biomedical Microsystems Lab where she worked on the development of wireless drug delivery devices. Since 2014, she joined USC, as a PhD student in Biomedical Engineering, where she was awarded the CONUSC Graduate Scholarship. She is currently working on strategies to improve dry and wet adhesion between polymer-polymer and polymer-metal interfaces to enhance polymer-based devices lifetime. Jessica enjoys traveling, football, music and movies.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+			<!-- </div> --> <!-- close row -->
+			<!-- <div class="row"> -->
+
+	<!-- SUE -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/blank.png" alt="Xuechun 'Sue' Wang" >
+			        <h4>Xuechun "Sue" Wang</h4>
+			        <h5>Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#sue">About Sue</button>
+		        </div>
+	        <!-- modal -->
+        		<div class="modal fade" id="sue" tabindex="-1" role="dialog" aria-labelledby="modaltitle-sue" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-sue">Xuechun "Sue" Wang</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/blank.png" alt="Xuechun (Sue) Wang">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					<br><br>
+												xuechunw [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	 
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- JAMES -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jamesyoo.jpg" alt="James Yoo">
+			        <h4>James Yoo</h4>
+			        <h5>Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#james">About James</button>
+		        </div>
+	        <!-- modal -->
+        		<div class="modal fade" id="james" tabindex="-1" role="dialog" aria-labelledby="modaltitle-james" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-james">James Yoo</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jamesyoo.jpg" alt="James Yoo">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2008 B.S. Mechanical Engineering, UC Berkeley<br><br>
+												james [dot] yoo [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	James Yoo completed his bachelor’s degree in December 2008 at the University of California, Berkeley, studying mechanical engineering. In 2009, he started working for Second Sight Medical Products, Inc., in the manufacturing department, where his responsibilities included process development, equipment operation qualification, and process validation for the Argus II retinal prosthetic. In 2011, James and his newly wed wife Stella moved to Philadelphia where she attended medical school. From 2011 to 2013, James held several jobs in the train and automotive industries, and in 2013, he returned to the medical device industry at Stryker Orthobiologics. Here, he focused on process development, process validation, and equipment installation/operation qualification for a future orthopaedic product to be released in 2016.
+											In 2015, James and Stella moved back to Los Angeles where Stella started her residency at the LAC+USC Medical Center and where James began graduate studies in biomedical engineering at the University of Southern California.
+											His passions include coffee, music, television, and movies. On the side, he works out, plays video games, plays guitar, and bakes. For the past few years, he has also been searching for America’s best burger.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- EUGENE -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/eugene.png" alt="Eugene Yoon" >
+			        <h4>Eugene Yoon</h4>
+			        <h5>Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#eugene">About Eugene</button>
+		        </div>
+	        <!-- modal -->
+        		<div class="modal fade" id="eugene" tabindex="-1" role="dialog" aria-labelledby="modaltitle-eugene" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-eugene">Eugene Yoon</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/eugene.png" alt="Eugene Yoon">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2015 B.S. Chemical and Biomolecular Engineering, Johns Hopkins University<br><br>
+												eugenejy [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	Eugene completed his bachelor's degree in 2015 at the Johns Hopkins University in Chemical and Biomolecular Engineering. While at JHU, worked on MEMS-based self-folding arrays in the Gracias Lab. Eugene also worked part-time at Scanogen, a startup focusing on POC genotyping. His experiences led to a summer internship in 2014 at Imec, in Leuven, Belgium where he developed single cell 3D microgrippers. Eugene loves to play soccer, guitar, and practice Taekwondo in his free time. His hometown is Cerritos so he is also very glad to be back in the west coast.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>								
+			</div> <!-- close row -->
+			<hr>	
+		</section>
+		<section id="labmanager">
+			<div class="row">
+				<!-- TUAN -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang" >
+			        <h4>Tuan Hoang</h4>
+			        <h5>Lab Manager</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#tuan">About Tuan</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="tuan" tabindex="-1" role="dialog" aria-labelledby="modaltitle-tuan" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-tuan">Tuan Hoang</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2007 Ph.D. Neuroscience, UCLA <br>
+												1995 B.S. Biological Science, Caltech <br><br>
+												tuanqhoa [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	As an undergraduate, Tuan was involved in several research projects at Caltech. In the laboratory of John Abelson, Ph.D., he screened mRNA splicing mutants of S. cerevesiae to isolate and characterize new proteins involved in the spliceosome complex. He also worked with Howard Lipshitz, Ph.D., purifying and measuring heat shock protein(HSP) 83 protein gradient in developing Drosophila melanogaster embryos to evaluate its expression. In addition, he conducted E.M.S. mutagenesis of Drosophila melanogaster to generate a bank of mutant strains of the Hindsight gene. After graduation from Caltech, he joined the Magnetic Resonance Spectroscopy Laboratory of Brian Ross, M.D., Ph.D., F.R.C.S. at the Huntingtin Medical Research Institute. He performed in vivo proton MRI and MRS brain exams on patients with Alzheimer's, PML,Parkinson's (PD), and Huntington's diseases (HD) to study the biochemical pathology. Furthermore, he assessed short term changes of free choline metabolite concentrations in the brain following oral ingestion of choline supplements using quantitative 31P MRS(spectroscopy). Also, he monitored major cellular metabolites in vivo of tissue neural transplants in HD and PD patients using MRI and MRS to determine viability and proliferation. 
+									      	<br><br>
+											As a doctoral graduate student at UCLA, Tuan worked with Jeff Twiss, M.D., Ph.D. and Carolyn Schanen, M.D., Ph.D. to screened for mRNA mutants of IT15 gene using RT-PCR, SSCP and ASO analyses. In addition, he generated eukaryotic expression plasmid constructs carrying wild-type and mutated forms (by site-directed mutagenesis) of Trk A nerve growth factor (NGF) receptor cDNA for transient transfection of neuronal cells.　Tuan joined the laboratory of Marie-Françoise Chesselet, M.D., Ph.D., who focuses on rodent models of human neurodegenerative diseases, including PD. and HD. His dissertation was based on a collaboration with the laboratory of Serge Przedborski, M.D., Ph.D. at Columbia. The main thrust was to study the mechanisms of MPTP-induced degeneration of dopaminergic neurons in mice. He assessed the level of DNA damage induced by systemic MPTP injection in the substantia nigra of several PD mice models using in situ nick translation and light microscopy. In addition, he performed radioligand saturation binding experiments for dopamine transporters in the striatum of MPTP-treated genetically-engineered mice models of Parkinson’s disease.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<section id="alumni">
+			<div class="row">
+
+	<!-- ANGELICA -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/angelica.jpg" alt="Angelica Cobo" >
+			        <h4>Angelica Cobo, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#angelica">About Angelica</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="angelica" tabindex="-1" role="dialog" aria-labelledby="modaltitle-angelica" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-angelica">Angelica Cobo, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/angelica.png" alt="Angelica Cobo">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2017 Ph.D. Biomedical Engineering, USC <br>
+												2012 M.S. Biomedical Engineering, USC <br>
+												2008 B.S. Biomedical Engineering, Florida International University
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+		
+	<!-- HEIDI -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/heidi.png" alt="Heidi Gensler" >
+			        <h4>Heidi Gensler, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#heidi">About Heidi</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="heidi" tabindex="-1" role="dialog" aria-labelledby="modaltitle-heidi" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-heidi">Heidi Gensler, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/heidi.png" alt="Heidi Gensler">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2013 Ph.D. Biomedical Engineering, USC <br>
+												2009 M.S. Biomedical Engineering, USC <br>
+												2008 B.S. Biomedical Engineering, University of Texas, Austin <br>
+												2008 B.A. German, University of Texas, Austin
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- CHRISTIAN -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/christian.png" alt="Christian Gutierrez" >
+			        <h4>Christian Gutierrez, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#christian">About Christian</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="christian" tabindex="-1" role="dialog" aria-labelledby="modaltitle-christian" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-christian">Christian Gutierrez, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/christian.png" alt="Christian Gutierrez">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2011 Ph.D. Biomedical Engineering, USC <br>
+												2006 M.S. Electrical Engineering, Caltech <br>
+												2005 B.S. Electrical Engineering, Caltech
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- SETH -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/seth.png" alt="Seth Hara" >
+			        <h4>Seth Hara, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#seth">About Seth</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="seth" tabindex="-1" role="dialog" aria-labelledby="modaltitle-seth" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-seth">Seth Hara, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/seth.png" alt="Seth Hara">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2015 Ph.D. Biomedical Engineering, USC <br>
+												2013 M.S. Biomedical Engineering, USC <br>
+												2008 B.S. Engineering, Swarthmore College
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- BRIAN -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brian.png" alt="Brian Kim" >
+			        <h4>Brian Kim, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#brian">About Brian</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="brian" tabindex="-1" role="dialog" aria-labelledby="modaltitle-brian" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-brian">Brian Kim, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brian.png" alt="Brian Kim">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2015 Ph.D. Biomedical Engineering, USC <br>
+												2013 M.S. Biomedical Engineering, USC <br>
+												2010 B.S. Biomedical Engineering, Duke
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- JONATHAN -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jonathan.png" alt="Jonathan Kuo" >
+			        <h4>Jonathan Kuo, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#jonathan">About Jonathan</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="jonathan" tabindex="-1" role="dialog" aria-labelledby="modaltitle-jonathan" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-jonathan">Jonathan Kuo, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jonathan.png" alt="Jonathan Kuo">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2013 Ph.D. Biomedical Engineering, USC <br>
+												2013 M.S. Biomedical Engineering, USC <br>
+												2007 B.S. Biomedical Engineering, UC San Diego
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- CURTIS -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/curtis.png" alt="Curtis Lee" >
+			        <h4>Curtis Lee, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#curtis">About Curtis</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="curtis" tabindex="-1" role="dialog" aria-labelledby="modaltitle-curtis" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-curtis">Curtis Lee, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/curtis.png" alt="Curtis Lee">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2015 Ph.D. Biomedical Engineering, USC <br>
+												2013 M.S. Biomedical Engineering, USC <br>
+												2008 M.S. Metallurgical Engineering, University of Utah <br>
+												2005 B.S. Metallurgical Engineering, University of Utah
+											</p>
+						    			</div>
+							    	</div>
+							    </div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- BRIAN LI -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brianli.jpg" alt="Po-Ying 'Brian' Li" >
+			        <h4>Po-Ying "Brian" Li, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#brianli">About Brian</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="brianli" tabindex="-1" role="dialog" aria-labelledby="modaltitle-brianli" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-brianli">Po-Ying "Brian" Li, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brianli.jpg" alt="Po-Ying 'Brian' Li">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2009 Ph.D. Biomedical Engineering, USC <br>
+												2004 M.S. Material Science, USC <br>
+												2001 M.S. Power Mechanical Engineering, National Tsing Hua University, Taiwan <br>
+												1996 B.S. Mechanical Engineering, Tatung Institute of Technology, Taiwan
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+						    	
+	<!-- RONALEE -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ronalee.jpg" alt="Ronalee Lo" >
+			        <h4>Ronalee Lo, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ronalee">About Ronalee</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="ronalee" tabindex="-1" role="dialog" aria-labelledby="modaltitle-ronalee" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-ronalee">Ronalee Lo, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ronalee.jpg" alt="Ronalee Lo">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2009 Ph.D. Biomedical Engineering, USC <br>
+												2005 M.S. Biomedical Engineering - Medical Devices and Diagnostic Engineering, USC <br>
+												2001 B.S. Engineering, Harvey Mudd College
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>								
+
+	<!-- ROYA -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/roya.png" alt="Roya Sheybani" >
+			        <h4>Roya Sheybani, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#roya">About Roya</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="roya" tabindex="-1" role="dialog" aria-labelledby="modaltitle-roya" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-roya">Roya Sheybani, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/roya.png" alt="Roya Sheybani">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2015 Ph.D. Biomedical Engineering, USC <br>
+												2009 M.S. Biomedical Engineering, USC <br>
+												2008 B.S. Biomedical Engineering, USC
+											</p>
+						    			</div>
+							    	</div>
+					    		</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- BRIAN -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ahuva.jpg" alt="Ahuva Weltman" >
+			        <h4>Ahuva Weltman, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ahuva">About Ahuva</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="ahuva" tabindex="-1" role="dialog" aria-labelledby="modaltitle-ahuva" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-ahuva">Ahuva Weltman, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ahuva.jpg" alt="Ahuva Weltman">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2018 Ph.D. Biomedical Engineering, USC <br>
+												2012 M.S. Bioengineering, UCLA
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- LAWRENCE -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/lawrence.jpg" alt="Lawrence Yu" >
+			        <h4>Lawrence Yu, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#lawrence">About Lawrence</button>
+		        </div>
+		<!-- modal -->
+        		<div class="modal fade" id="lawrence" tabindex="-1" role="dialog" aria-labelledby="modaltitle-lawrence" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-lawrence">Lawrence Yu, PhD</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/lawrence.jpg" alt="Lawrence Yu">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2016 Ph.D. Biomedical Engineering, USC <br>
+												2010 M.S. Electrical Engineering, USC <br>
+												2009 B.S. Biomedical Engineering, USC
+											</p>
+						    			</div>
+							    	</div>
+							    	
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+							    	
+								
+
+			</div> <!-- close row -->
+		</section>		
+	</div>
 </body>
 
 {% include footer.html %}

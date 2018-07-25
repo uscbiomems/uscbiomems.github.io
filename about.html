@@ -9,11 +9,155 @@ active_pub:
 active_contact: 
 ---
 {% include header.html %}			
-<body>
-  <div class="container">
-  	<h1>This is a placeholder for the new website of the USC BioMEMS Laboratory</h1>
-      <p>Find our old website at <a href="biomems.usc.edu">biomems.usc.edu</a></p>
-  </div>
+<!-- secondary navbar 
+=================================================================== -->
+<!-- <nav class="navbar navbar-dark shadow sticky-top secondary-navbar">
+
+  	<div class="container">
+		<nav class="nav nav-pills d-flex flex-wrap" id="about-content">
+		  	<a class="nav-link" href="#history">History</a>
+		  	<a class="nav-link" href="#facilities">Facilities</a>
+		  	<a class="nav-link" href="#photos">Photo Gallery</a> future project
+		</nav>
+  	</div>
+</nav> -->
+
+<!-- body 
+=====================================================================-->
+<body data-spy="scroll" data-target="#about-content" data-offset="1">
+	<div class="container">
+		<br><br>
+		<div class="row">
+			<div class="col-md-7">
+				<section id="history">
+				  	<h2>History</h2>
+				  	<p>
+				  		The Biomedical Microsystems Lab was established in 2004 by Dr. Ellis Meng and focuses on developing novel micro- and nanotechnologies for biomedical applications. In particular, we are interested in the integration of multiple modalities (e.g. electrical, mechanical, and chemical) in miniaturized devices measuring no more than a few millimeters for use in fundamental scientific research, biomedical diagnostics, and therapy. The lab is home to a talented group of interdisciplinary scholars including high school students and teachers, undergraduates, and graduate students interested in the advancement of translational micro- and nanotechnologies to address vital unmet medical needs.
+				  	</p>
+				    
+				    <hr>
+				    <br>
+				</section>
+				<section id="facilities">
+				    <h2>Facilities</h2>
+				    <img class="shadow" src="/images/Michelson-Hall-jpeg2-by-Gus-Ruelas-e1521066165335.jpg" alt="USC Michelson Center for Convergent Bioscience" style="width:100%; margin-bottom:1rem; margin-top:1rem">
+				    <br><br>
+				    <h3>Michelson Center for Convergent Bioscience (MCB)</h3>
+				    <p>
+				  		In 2018 the lab moved from Ronald Tutor Hall to the brand new <a href="https://michelson.usc.edu" target="_blank">USC Michelson Center for Convergent Bioscience</a>. The lab has equipment for device fabrication, assembly, packaging, characterization and testing. This includes a probe station, microscopes, contact angle goniometer, laser and conventional machining centers, polymer vapor deposition system, test and measurement equipment, convection and vacuum ovens, and wet benches. PCs are equipped with software for microsystem design and analysis. In addition, cell culture facility run by the Viterbi School and Class 100-10000 cleanroom fabrication facilities are available for our research activities.
+				  	</p>
+				  	<a href="https://michelson.usc.edu" target="_blank"><button type="button" class="btn btn-secondary">More about MCB</button></a>
+				  	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#equipment-list">View lab equipment</button>
+				  	<!-- modal -->
+				        <div class="modal fade" id="equipment-list" tabindex="-1" role="dialog" aria-labelledby="modaltitle-equipmentlist" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+							    <div class="modal-content">
+								    <div class="modal-header">
+								        <h5 class="modal-title" id="modaltitle-equipmentlist">List of Lab Equipment</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								    		<span aria-hidden="true">&times;</span>
+								        </button>
+								    </div>
+								    <div class="modal-body">
+								        <div class="container">
+										    <ul>
+												<li>Taig CNC Mill</li>
+												<li>Epilog M-300 Laser Platform</li>
+												<li>Laurell Spin Processor</li>
+												<li>Signatone Probe Station</li>
+												<li>Vision Engineering Lynx Microscope</li>
+												<li>Nikon Epi-Fluorescence Microscope</li>
+												<li>Tantec Contact Angle Meter</li>
+												<li>Mitutoyo Digital Thickness Gauge</li>
+												<li>Dataplate Programmable Hot Plates</li>
+												<li>Torrey Pines Programmable Hot Plate</li>
+												<li>Hybond Wedge Bonder</li>
+												<li>Servo Mini Drill Press</li>
+												<li>National Instruments Cards</li>
+												<li>High Voltage Power Supply</li>
+												<li>Keithley 2400 Sourcemeter</li>
+												<li>Parylene Vapor Deposition System</li>
+												<li>Sun Electronics Environmental Test Chamber</li>
+												<li>Thinky Hybrid Mixer</li>
+												<li>Despatch Oven</li>
+												<li>VWR Oven</li>
+												<li>Ohaus Balances</li>
+												<li>Lindberg Vacuum Oven</li>
+												<li>Pressure Testing Setup</li>
+											</ul>
+										</div>
+									</div>
+								    <div class="modal-footer">
+								        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							        </div>
+								</div>
+							</div>
+						</div>
+					
+					
+					<hr>
+					<br>
+					<h3>W.M. Keck Photonic Laboratory</h3>
+					<p>
+						The W.M. Keck Photonic Laboratory is a 5000 sq.ft. class 100 cleanroom facility. This dedicated research lab houses standard device fabrication tools such as photolithography, wet and dry etching, metal and dielectric deposition, oxidation and diffusion. In addition, the lab features newly acquired electron beam lithography prototyping capability to allow the definition of features down to 30 nanometers, and an electron cyclotron etching system with laser interferometric control that allows the control of etching depth to a few atomic layers. The facilities have been used to fabricate the latest devices in several technologies and to explore new devices with feature sizes as small as 40 nanometers. A lab manager runs the facility.
+					</p>
+					
+					<hr>
+					<br>
+					<h3>John O'Brien Nanofabrication Laboratory</h3>
+					<p>
+						Located in the Michelson Center for Convergent Bioscience, the John O'Brien Nanofabrication Laboratory is set to open in early 2019 and will house state-of-the-art resources for lithography, characterization, imaging and device integration.
+					</p>
+					<a href="https://viterbischool.usc.edu/shared-research-infrastructure/john-obrien-nanofabrication-laboratory/" target="_blank"><button type="button" class="btn btn-secondary">More about the John O'Brien Nanofabrication Laboratory</button></a>
+					
+					<hr>
+					<br>
+					<h3>Core Center Excellence in Nano Imaging (CNI)</h3>
+					<p>
+						Previously known as the Center for Electron Microscopy and MicroAnalysis (CEMMA), the Core Center Excellence in Nano Imaging will also be located in MCB and provides advanced resources and support for microscopy, spectrometry and sample preparation.
+					</p>
+					<a href="http://cemma.usc.edu/" target="_blank"><button type="button" class="btn btn-secondary">More about CNI</button></a>
+					
+					<hr>
+					<br>
+					<h3>Viterbi Graduate Student Machine Shop</h3>
+					<p>
+						In addition to the lab's own machining tools, the Viterbi Graduate Student Machine Shop also offers two mills, a lathe, drill press, band saw and grinder.
+					</p>
+					<a href="https://gradstudentshop.usc.edu" target="_blank"><button type="button" class="btn btn-secondary">More about the Grad Student Machine Shop</button></a>
+				</section>
+			</div>			
+			<div class="col-md-5">
+				<a class="twitter-timeline shadow" href="https://twitter.com/MengLabUSC" data-widget-id="332898054279663616">Tweets by @MengLabUSC</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div> <!-- close row -->
+
+		<!-- ==================== future project: make a photo gallery with thumbnails and modals =========================== -->
+		<!-- <section id="photos">
+			<div class="row">
+				<div class="col-md-4">
+					<button data-toggle="modal" data-target="#mengsters2014"><img src="{{ site.baseurl }}images/gallery/2014_meng_group.jpg"></button> 
+				</div>
+				<div class="modal fade" id="equipment-list" tabindex="-1" role="dialog">
+					<div class="modal-dialog modal-lg" role="document">
+					    <div class="modal-content">
+						    <div class="modal-header">
+						        <h5 class="modal-title">Mengsters, circa 2014</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						    		<span aria-hidden="true">&times;</span>
+						        </button>
+						    </div>
+						    <div class="modal-body">
+						    	<img src="{{ site.baseurl }}images/gallery/2014_meng_group.jpg" data-dismiss="modal" >
+					    	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		
+	</div>
 </body>
 
 {% include footer.html %}
