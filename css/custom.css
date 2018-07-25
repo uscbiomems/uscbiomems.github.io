@@ -240,3 +240,14 @@ section:before {
   width: 100%;
   margin: 2rem;
 }
+
+.smaller {
+  font-size: 10pt;
+}
+
+.research-images img {
+  max-width: 100%;
+  min-height: 10rem;
+  max-height: 25rem;
+  margin: 1rem;
+}

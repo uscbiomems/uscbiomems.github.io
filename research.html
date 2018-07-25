@@ -8,12 +8,294 @@ active_people:
 active_pub:
 active_contact: 
 ---
-{% include header.html %}			
-<body>
-  <div class="container">
-  	<h1>This is a placeholder for the new website of the USC BioMEMS Laboratory</h1>
-      <p>Find our old website at <a href="biomems.usc.edu">biomems.usc.edu</a></p>
-  </div>
+{% include header.html %}
+
+<!-- secondary navbar 
+=================================================================== -->
+<nav class="navbar navbar-dark shadow sticky-top secondary-navbar">
+
+  	<div class="container">
+		<nav class="nav nav-pills d-flex flex-wrap" id="research-topics">
+		  	<a class="nav-link" href="#polymerMEMS">Polymer MEMS</a>
+		  	<a class="nav-link" href="#sensors">Sensor Technologies</a>
+		  	<a class="nav-link" href="#neural">Neural Interfaces</a>
+		  	<a class="nav-link" href="#past">Past Projects</a>
+		</nav>
+  	</div>
+</nav>
+
+<!-- body 
+=====================================================================-->
+<body data-spy="scroll" data-target="#research-topics" data-offset="1">
+	<div class="container research-images">
+		<br>
+		<section id="polymerMEMS">
+			<h1>Polymer MEMS</h1>
+			<hr><br>
+			<h4>Parylene Micromachining for Biomedical Applications</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/pulltest.png">
+				</div>
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/tf-perf-crop.png">
+				</div>
+			</div>
+			<p>Parylene, known generically as poly-(para-chloro-xylylene), is a semicrystalline hydrophobic polymer formed as a thin, conformal, and pinhole-free film using a unique chemical vapor deposition (CVD) technique. Parylene is recognized for its chemical inertness, electrical resistivity, low moisture permeability, and proven biocompatibility. For several decades, thin Parylene coatings have been used to create waterproof insulation for electronics intended for use in harsh environments, a category that increasingly includes biomedical implants. Parylene also exhibits low intrinsic stress, optical transparency, mechanical flexibility, and compatibility with several standard micromachining processes, and as such has been adopted as a structural material in the growing field of polymer-based biomedical microelectromechanical systems (bioMEMS).</p>
+							
+			<p>Our lab works extensively with Parylene as a structural material for microfabricated devices. We have characterized and optimized polymer micromachining techniques such as thermoforming and deep reactive ion etching (DRIE). We continue to investigate strategies to maximize device performance, particularly in wet <i>in vivo</i> environments.</p>
+			<div class="smaller">
+				<p> Further reading:</p>
+				<p><a href="{{ site.baseurl }}publications/2015/2015_PAT_PxC_micromachining.pdf" target="_blank">B. J. Kim and E. Meng, "<b>MICROMACHINING OF PARYLENE C FOR BIOMEMS</b>," <i>Polymers for Advanced Technologies</i>, 2015.</a></p>
+				<p><a href="{{ site.baseurl }}publications/2015/2015_JMM_polymer_micromachining.pdf" target="_blank">B. J. Kim and E. Meng, "<b>REVIEW OF POLYMER MEMS MICROMACHINING</b>," <i>Journal of Micromechanics and Microengineering</i>, vol. 26, p. 013001, 2015.</a></p>
+				<p><a href="{{ site.baseurl }}publications/2014/2014_JMM_Thermoforming.pdf" target="_blank">B. Kim, B. Chen, M. Gupta, and E. Meng, "<b>FORMATION OF THREE-DIMENSIONAL PARYLENE C STRUCTURES VIA THERMOFORMING</b>," <i>Journal of Micromechanics and Microengineering</i>, vol. 24, p. 065003, 2014.</a></p>
+			</div>
+			<hr>
+			<br>
+		</section>
+		<section id="sensors">
+			<h1>Sensor Technologies</h1>
+			<hr><br>
+			<h4>An implantable multi-sensor module for monitoring and predicting failure in hydrocephalus shunts</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/shunt-sensors.png">
+				</div>
+			</div>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-4 align-items-center">
+					<img src="{{ site.baseurl }}images/research/thermal-flow-sensor.jpg">
+				</div>
+				<div class="col-md-5 align-items-center">
+					<img src="{{ site.baseurl }}images/research/microbubble-sensor.png">
+				</div>
+				<div class="col-md-2 align-items-center">
+					<img src="{{ site.baseurl }}images/research/patency-sensor.png">
+				</div>
+			</div>
+			<p>Hydrocephalus is a chronic, incurable disease which prevents proper drainage of cerebrospinal fluid (CSF) from the brain, causing head swelling and a host of neurological symptoms. The current gold standard treatment is implantation of a shunt to drain CSF into the peritoneum. However, this method is plagued by high failure rates – 40% in the first year1 to 85% in 10 years.2 Our laboratory is developing novel electrochemical sensors to provide early diagnosis of shunt malfunction, obviating the need for other potentially expensive and ambiguous detection methods, such as MRI scans or patient symptoms. By measuring how impedance across CSF changes with changing physical conditions, we can sense flow rate, intra-shunt pressure, and other quantities.</p>
+			<div class="smaller">
+				<p> Further reading:</p>
+				<p><a href="publications/2016/2016_JMEMS_flow_sensor.pdf" target="_blank">A. Baldwin, L. Yu, and E. Meng, "<b>AN ELECTROCHEMICAL IMPEDANCE-BASED THERMAL FLOW SENSOR FOR PHYSIOLOGICAL FLUIDS</b>," <i>Journal of Microelectromechanical Systems</i>, vol. 25, pp. 1015-1024, 2016.</a></p>
+				<p><a href="publications/2016/2016_JMEMS_microbubble.pdf" target="_blank">L. Yu, C. A. Gutierrez, and E. Meng, "<b>AN ELECTROCHEMICAL MICROBUBBLE-BASED MEMS PRESSURE SENSOR</b>," <i>Journal of Microelectromechanical Systems</i>, vol. 25, pp. 144-152, 2016.</a></p>
+				<p><a href="publications/2016/2016_BMMD_Patency_Sensor.pdf" target="_blank">B. J. Kim, W. Jin, A. Baldwin, L. Yu, E. Christian, M. D. Krieger, J. G. McComb, and E. Meng, "<b>PARYLENE MEMS PATENCY SENSOR FOR ASSESSMENT OF HYDROCEPHALUS SHUNT OBSTRUCTION</b>," <i>Biomedical Microdevices</i>, vol. 18, p. 87, 2016.</a></p>
+				<p><a href="publications/2016/2016_MEMS_dual_microbubble.pdf" target="_blank">L. Yu and E. Meng, "<b>A DUAL MODE MICROBUBBLE PRESSURE AND FLOW SENSOR</b>," in <i>29th IEEE International Conference on Micro Electro Mechanical Systems (MEMS)</i>, 2016, pp. 325-328.</a></p>
+				<p><a href="publications/2015/2015_MEMS_flow_sensor.pdf" target="_blank">L. Yu, B. J. Kim, and E. Meng, "<b>AN IMPLANTABLE TIME OF FLIGHT FLOW SENSOR</b>," in <i>28th IEEE International Conference on Micro Electro Mechanical Systems (MEMS)</i>, 2015, pp. 620-623.</a></p>
+				<p>Drake, J.M., J.R.W. Kestle, and S. Tuli, <b>CSF shunts 50 years on – past, present and future</b>. <i>Child's Nervous System</i>, 2000. 16(10): p. 800-804.</p>
+				<p>Piatt, J.H., Jr. and C.V. Carlson, <b>A search for determinants of cerebrospinal fluid shunt survival:retrospective analysis of a 14-year institutional experience</b>. <i>Pediatr Neurosurg</i>, 1993. 19(5): p. 233-41; discussion 242.</p>
+			</div>
+			<hr>
+			<br>
+
+			<h4>Micromachined Parylene Sensors</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-5 align-self-center">
+					<img src="{{ site.baseurl }}images/research/kirigami.png">
+				</div>
+				<div class="col-md-7 align-self-center">
+					<img src="{{ site.baseurl }}images/research/force-sensor.png">
+				</div>
+			</div>
+			<p>Parylene C possesses unique properties, such as easy micromachinability, biocompatibility, flexibility, and compatibility with vapor deposition processes, that enable a wide range of microfabricated devices. We have leveraged these properties to create a variety of sensors, made from only Parylene C and thin-film metal, which can transduce parameters such as contact force, stretch distance, and electrical conductivity.</p>				
+			<div class="smaller">
+				<p> Further reading:</p>
+				<p><a href="publications/2017/2017_MEMS_kirigami_stretch.pdf" target="_blank">A. Baldwin and E. Meng, "<b>A KIRIGAMI-BASED PARYLENE C STRETCH SENSOR</b>," in <i>30th IEEE International Conference on Micro Electro Mechanical Systems (MEMS)</i>, 2017, pp. 227-230.</a></p>
+				<p><a href="publications/2016/2016_HH_contactless_EI.pdf" target="_blank">L. Yu, E. Pun, and E. Meng, "<b>A CONTACTLESS ELECTROCHEMICAL IMPEDANCE MEASUREMENT METHOD</b>," in <i>Solid-State Sensors, Actuators, and Microsystems Workshop</i>, Hilton Head, South Carolina, 2016.</a></p>
+				<p><a href="publications/2015/2015_JMEMS_force_sensor.pdf" target="_blank">B. J. Kim, C. A. Gutierrez, and E. Meng, "<b>PARYLENE-BASED ELECTROCHEMICAL-MEMS FORCE SENSOR FOR STUDIES OF INTRACORTICAL PROBE INSERTION MECHANICS</b>," <i>Journal of Microelectromechanical Systems</i>, vol. 24, pp. 1534-1544, 2015.</a></p>
+			</div>
+			<hr>
+			<br>
+		</section>
+		<section id="neural">
+			<h1>Neural Interfaces</h1>
+			<hr><br>
+			<h4>Parylene-Based Hippocampal Recording Array</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-8 align-self-center">
+					<img src="{{ site.baseurl }}images/research/hippocampal-array.jpg">
+				</div>
+			</div>
+			<div class="smaller">
+				<p><i>Above: (a) Eight polymer shanks of hippocampal array with two groups of electrodes targeting two layers of the hippocampus visible, (b) neural interface and electrical packaging system after implantation of array into rat, and (c) representative complex spike recorded from the array.</i></p>
+			</div>
+			<p>The goal of this project is to design, fabricate, and implant a neural probe array composed of a ‘soft’ polymer that boasts greater flexibility and mechanical compliance than existing probes of silicon, glass and metal. Such rigid probes suffer inevitable signal degradation over time as chronic tissue irritation drives an immune cascade that may wall-off the implant. It is speculated that the use of polymer probes might mitigate this damage and attenuate the immune response and subsequent glial cell sheath that degrade signal-to-noise ratios, thereby enabling the production of an effective, life-long brain machine interface. The reduced stiffness of probes, however, presents a technical challenge for surgical insertion into brain tissue especially for deep-brain targets such as the hippocampus. Polymer probes must be temporarily stiffened in order to penetrate brain tissue and for accurate surgical placement, typically via bulky biodegradable overcoats or insertion shuttles which can increase probe cross-section many-fold times significantly adding to acute tissue injury. The need for temporary stiffening of probes during implantation has limited development of polymer probes to designs with short shanks (typically 1-2 mm), as shorter probes have larger buckling force thresholds, and has constrained recording sites to superficial cortical structures. Our implantation strategy overcomes these issues, and opens the door for the large scale acquisition of neural recordings from deep brain structures such as the hippocampus (target depth of > 4 mm). Our hippocampal arrays consist of eight probe shanks, each with two groups of four electrodes that target recordings from individual neurons in two layers of the trisynaptic hippocampal circuit. Each of these 64 electrodes can be monitored simultaneously during free-moving rat experiments.</p>
+			
+			<div class="smaller">
+				<p> Further reading:</p>
+				<p><a href="publications/2017/2017_MEMS_hippocampal_array.pdf" target="_blank">A. W. Hirschberg, H. Xu, K. Scholten, T. W. Berger, D. Song, and E. Meng, "<b>DEVELOPMENT OF AN ANATOMICALLY CONFORMAL PARYLENE NEURAL PROBE ARRAY FOR MULTI-REGION HIPPOCAMPAL RECORDINGS</b>," in <i>30th IEEE International Conference on Micro Electro Mechanical Systems (MEMS)</i>, 2017, pp. 129-132.</a></p>
+				<p><a href="publications/2016/2016_HH_deep_brain.pdf" target="_blank">A. Weltman, H. Xu, K. Scholten, and E. Meng, "<b>DEEP BRAIN TARGETING STRATEGY FOR BARE PARYLENE NEURAL PROBE ARRAYS</b>," in <i>Solid-State Sensors, Actuators, and Microsystems Workshop</i>, Hilton Head, South Carolina, 2016.</a></p>
+			</div>
+			<hr>
+			<br>
+			
+			<h4>Large-Scale Brain Probes</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-8 align-self-center">
+					<img src="{{ site.baseurl }}images/research/large-scale-probes.png">
+				</div>
+				
+			</div>
+			<p>Detailed electrophysiological neural recordings require large numbers of recording electrodes, which in turn requires the development of high-density, large-scale neural probe arrays. Advances in miniaturization and microtechnology enable the creation of flexible neural probes with an increasing number of recording electrodes. High-density probes can be arrayed and stacked to create recording devices able to monitor many thousands of electrodes. In order to manage the large quantity of collected data, such devices will require integrated microelectronics, including signal multiplexers, able to reduce the output to a serialized signal. This effort involves several new developments in polymer-microtechnology, and the result will be a novel large-scale neural recording device suitable for chronic applications. </p>
+			<hr>
+			<br>
+
+			<h4>Peripheral Nerve Interface With Integrated Drug Delivery</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/LACE.png">
+				</div>
+				<div class="col-md-5 align-self-center">
+					<img src="{{ site.baseurl }}images/research/LACE-targeting-fascicles.jpg">
+				</div>
+			</div>
+			<p>Peripheral nerves carry signals between the central nervous system and other parts of the body. By putting electrodes on a nerve we can read these signals or send in signals from an external source. This enables exciting possibilities such as natural control of robotic prostheses or therapeutic modulation of organ activity. In the BioMEMS Lab we are aiming to improve signal quality and chronic stability of the peripheral nerve interface by integrating drug delivery capabilities. Our device, which we call the lyse-and-attract cuff electrode (LACE), is microfabricated from Parylene C and thin-film platinum. It is designed to wrap around the nerve and deliver drugs to first selectively dissolve away connective tissue and then induce axonal sprouting towards the electrodes.</p>
+			<div class="smaller">
+				<p> Further reading:</p>
+				<p><a href="publications/2017/2017_MEMS_LACE.pdf" target="_blank">A. M. Cobo, B. Boyajian, C. Larson, K. Scholten, V. Pikov, and E. Meng, "<b>A PARYLENE CUFF ELECTRODE FOR PERIPHERAL NERVE RECORDING AND DRUG DELIVERY</b>," in <i>30th IEEE International Conference on Micro Electro Mechanical Systems (MEMS)</i>, 2017, pp. 506-509.</a></p>
+				<p><a href="publications/2016/2016_HH_LACE.pdf" target="_blank">A. Cobo, K. Scholten, J. Yoo, C. Larson, T. Hudson, V. Pikov, and E. Meng, "<b>A PARYLENE PERIPHERAL NERVE CUFF ELECTRODE WITH INTEGRATED MICROFLUIDICS</b>," in <i>Solid-State Sensors, Actuators, and Microsystems Workshop</i>, Hilton Head, South Carolina, 2016.</a></p>
+				<p><a href="publications/2016/2016_NIC_LACE.pdf" target="_blank">A. Cobo, K. Scholten, J. Yoo, C. Larson, T. Hudson, V. Pikov, and E. Meng, "<b>A PARYLENE CUFF ELECTRODE FOR PERIPHERAL NERVE RECORDING AND STIMULATION</b>," in <i>Neural Interfaces Conference</i>, 2016.</a></p>
+			</div>
+			<hr>
+			<br>
+
+			<h4>Polymer-based Retinal Prosthetic Systems</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-8 align-self-center">
+					<img src="{{ site.baseurl }}images/research/retinal-array.png">
+				</div>
+			</div>
+			<p>We aim to design, fabricate, and test a system for simultaneous retinal stimulation and visual cortex recording in live rat models. Novel polymer-based microelectrode arrays in conjunction with custom integrated circuits will provide rich datasets to elucidate the “visual” code that neurons employ to perceive sight which can ultimately guide the mission of visual prostheses, artificial vision, and basic neuroscience. </p>
+			<div class="smaller">
+				<p> Further reading:</p>
+				<p><a href="publications/2017/2017_Transducers_Ocular_MEMS.pdf" target="_blank">E. Meng, E. Yoon, and C. Gutierrez, "<b>MEMS ENABLED TECHNOLOGIES FOR OCULAR MONITORING AND THERAPY</b>," in <i>Transducers, Kaohsiung, Taiwan</i>, 2017, pp. 379-382.</a></p>
+			</div>
+			<hr>
+			<br>
+		</section>
+		<section id="past">
+			<h1>Past Projects</h1>
+			<hr><br>
+			<h4>Chemical gradients in cell co-cultures (µBAM/CCM)</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/microCCM.png">
+				</div>
+			</div>
+			<p>We are developing easy to use microfluidic modules as a tool for researchers studying the effects of chemical gradients on populations of cells. Passive pumping is utilized so that only a pipette is required for operation of the microfluidic flows and generation of gradients. These devices are compatible with standard cell culture techniques including sterilization and incubation as well as optical microscopy. We are currently collaborating with neuroscientists to study the chemical gradient guidance of axonal growth from embryonic neurons with this technology.</p>
+			<hr>
+			<br>
+
+			<h4>Optical neural interface</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/SEM1.jpg">
+				</div>
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/SEM2.jpg">
+				</div>
+			</div>
+			<p>Optogenetics allow for stimulation of neural networks using light. Current technologies for leveraging optogenetics are low throughput and can be relatively expensive. We are currently developing a micromachined optical mirror chip that increases throughput for light stimulation studies. This technology is compatible with standard microscopy and cell culture techniques and can be coupled with MEA’s for dual mode (optical and electrical) cell interfacing. </p>
+			<hr>
+			<br>
+
+			<h4>Implantable Drug Delivery Micropump Systems</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/micropumps.jpg">
+				</div>
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/actuator.jpg">
+				</div>
+			</div>
+			<p>We develop high-performance drug delivery micropumps with unprecedented accuracy capable of delivering a diverse assortment of drugs at the right dose, to the right tissue, and at the right time over the entire course of treatment. In this manner, therapeutic efficacy is maximized while minimizing unintended side effects.</p>
+			<p>For many chronic diseases, the timing and amount of drug dosing is critical to the effectiveness of the therapy, and is often tied to biological rhythms. Rodent models are often used to evaluate new potential therapeutics prior to human clinical testing, but technology for chronic drug administration in rats and mice is quite limited, either from the point of view of lack of flow rate control or large size. Our micropump technology is scalable for animals as small as mice, providing researchers with flexibility in chronic drug studies, and will lead to better understanding of and more effective treatments for chronic disease.</p>
+			<p>The micropump components are an electrochemical bellows actuator, refillable drug reservoir, wireless inductive powering components, catheter, and check valve. By utilizing fabrication techniques from MEMS, or microelectromechanical systems, the actuation components are scalable to small animal models (including mice). The actuation is achieved through electrolysis, in which energy from the conversion of water to hydrogen and oxygen gases is harnessed to actively pump drug from the reservoir. This process generates low heat, requires low power consumption, and enables repeated dosing. The refillable drug reservoir can be sized to accommodate dosing needs for a specific animal model and application, and allows drug to be store adjacent to the target site in the body. A catheter directs the drug to the site. A check valve ensures accurate dosing without contamination or dilution of the drug in the reservoir. By using a wireless inductive powering scheme, the micropump operates without a battery and allows tetherless, unrestricted movement of the animal during the dosing. This is important, as stress from restraint and handling can significantly affect animal behavior and physiology. In addition, an integrated electrochemically-based dose tracking system is capable of real-time tracking and confirmation of delivery. With dose tracking, the micropump has closed-loop feedback for monitoring pump performance that can improve device reliability and increase patient safety. </p>
+			<hr>
+			<br>
+
+			<h4>3D Parylene Sheath Electrode</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/array-brain.jpg">
+				</div>
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/packaged-array.jpg">
+				</div>
+			</div>
+			<p>Neural probe technologies are an integral part of BMI’s (Brain-machine-interfaces). Current neural probes are commercialized and widely in use within the neuroscience community. However, these technologies have limited recording lifetimes once implanted. This is attributed to the chronic irritation caused by the stiff probe material on the surrounding soft brain tissue as the brain pulses from blood flow, resulting in scar formation and loss of neural signals. We are developing a neural probe from the ground up that is biocompatible and possesses long-term recording lifetimes. We use Parylene, a USP Class VI material that is flexible and micromachinable to construct the devices. We can create 3D sheath structures that encourage neural tissue ingrowth once implanted, anchoring the probe into the brain and promoting long-term brain-probe integration.</p>
+			<hr>
+			<br>
+
+			<h4>Bioactive Coatings for 3D Parylene Sheath Electrode</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/pse-fabrication.jpg">
+				</div>
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/tf-perf.png">
+				</div>
+			</div>
+			<p>Inserting the 3D Parylene Sheath Electrode is a traumatic event for the brain, which causes a scar and dead zone to form around the recording sites and limits the probes ability to obtain neural signals. Coating the sheath with bioactive molecules reduces scar tissue formation as well as encourages neuronal survival and integration into the sheath. Currently, the coatings are made by incorporating bioactive drugs into the commercially available hydrogel “Matrigel,” which contains proteins and molecules similar to those found naturally in the neuronal extracellular environment. Future coatings will incorporate the molecules into the biodegradable polymer poly(lactic-co-glycolic acid) (PLGA) to achieve sustained release drug delivery. </p>
+			<hr>
+			<br>
+
+			<h4>Microfluidic Gradient Chamber</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/complete-mfgc.jpg">
+				</div>
+			</div>
+			<p>In collaboration with researchers in the Earth Sciences Department at USC, we have developed a microfluidic gradient chamber to aid in the study of microbial organization in response to chemical stimuli. We leverage laminar flow to control chemical diffusion gradients on a fine spatial scale. Unlike silicone-based microfluidics, the device is fabricated from silicon microchannels sealed with a glass cover plate so that gas diffusion in the chamber can be controlled.</p>
+			<hr>
+			<br>
+
+			<h4>Electrochemical-MEMS (EC-MEMS) Sensor Technology</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/cortical-sensor-array.jpg">
+				</div>
+			</div>
+			<p>Many current MEMS sensor technologies require bulk, hermetic packaging that cripples their performance and size advantages in vivo. An effort within the Biomedical Microsystems Laboratory is the development of electrochemical-MEMS (EC-MEMS) sensor technology that instead leverages the wet environment as its sensing mechanism by utilizing a simple electrochemical principle as a transduction mechanism to correlate mechanical phenomena to quantitative measures. In short, the sensor consists of an electrolyte filled microchamber housing a pair of electrodes. Any disruption of the volumetric conduction path between the pair of electrodes would cause a change in measured electrochemical impedance at sufficiently high frequencies. In our sensors, these disruptions of the conduction path stem from either external mechanical forces that deform the top of the microchamber, or changes in hydrostatic pressure that alter the size of a bubble that sits within the chamber. Through these mechanisms, our sensors can measure desired phenomena in a simple-to-fabricate and measure, biocompatible packaging while maintaining form factor advantages of MEMS-based devices.</p>
+			<hr>
+			<br>
+
+			<h4>Parylene-based EC-MEMS Force Sensor</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/cortical-sensor.jpg">
+				</div>
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/retinal-sensor-array.jpg">
+				</div>
+			</div>
+			<p>Arrays of Parylene-based EC-MEMS force sensors aim to instrument current neural interface technology for use as a research tool in exploring the mechanical interactions between implanted prostheses and the surrounding neural tissue. To date, two force sensor arrays have been developed: (1) retinal sensor array designed to explore the tacking forces generated on the retina over the footprint of retinal prosthesis during its tacking-based implantation procedure, and (2) cortical sensor array designed to instrument the length of a ceramic cortical probe to explore the interfacial forces experienced by the probe from the surrounding cortical tissue during insertion as well as while implanted. </p>
+			<hr>
+			<br>
+
+			<h4>Parylene-based EC-MEMS Pressure Sensor </h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/pressure-sensor.jpg">
+				</div>
+			</div>
+			<p>Microbubbles respond instantaneously to external pressure variations and thus can be harnessed as pressure transducers when isolated using microchambers. The overall aim is to develop a reliable pressure transducer for detecting physiologically relevant pressures in a wet, in vivo environment, such as those involved in hydrocephalus. </p>
+			<hr>
+			<br>
+
+			<h4>Polydimethylsiloxane/Carbon Nanotube (PDMS-CNT) Strain Sensors</h4>
+			<div class="row d-flex justify-content-around ">
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/pdms-cnt.jpeg">
+				</div>
+				<div class="col-md-6 align-self-center">
+					<img src="{{ site.baseurl }}images/research/pdms-cnt-2.jpeg">
+				</div>
+			</div>
+			<p>Strain is an important measurement for assessing the function and health of internal organs, but traditional electronics are limited in their ability to survive in the body and lack the flexibility of biological tissues. PDMS-CNT strain sensors combine medical grade silicone rubber and carbon nanotubes to create a conductive material whose resistance increases as it is stretched. The high aspect ratio and excellent conductivity of carbon nanotubes allows this material to be made using low concentrations of carbon nanotubes and preserve silicone’s innate flexibility. This conductive material can be used to make robust, flexible, and biocompatible strain sensors. Our main application of these devices is to measure bladder fullness as part of a closed loop system for controlling micturition in patients with spinal cord injuries. </p>
+			
+			<br>			
+		</section>
+  	</div>
 </body>
 
 {% include footer.html %}
