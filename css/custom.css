@@ -56,7 +56,7 @@ h1 a:hover {
   /*background-color: #222;*/ /*dark version*/
   background-color: #353535;
   z-index: 990;
-  height: 4.7rem;
+  min-height: 4.7rem;
 }
 
 .primary-navbar a {
@@ -208,6 +208,7 @@ section:before {
 
 .featurette img {
   margin: 2rem;
+  height: 15rem;
 }
 
 /* RESPONSIVE CSS
@@ -228,7 +229,7 @@ section:before {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 2rem;
   }
 }
 
@@ -236,9 +237,9 @@ section:before {
   outline: 0.1px solid #ddd;
 }
 
-#photos img {
+#labphotos img {
   width: 100%;
-  margin: 2rem;
+  /*margin: 1rem;*/
 }
 
 .smaller {
