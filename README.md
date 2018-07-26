@@ -1,6 +1,7 @@
 # uscbiomems.github.io - website of the Biomedical Microsystems Laboratory at USC
 
 custom domain: biomems.usc.edu
+
 website launched 20180725 by Christopher Larson
 
 ## development/maintenance notes for future grad students in the lab:
