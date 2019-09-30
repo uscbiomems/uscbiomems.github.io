@@ -184,11 +184,19 @@ section:before {
   margin-left: .75rem;
   /*text-align: left;*/
 }
-.bio img {
+.bio .headshot {
   width:15rem;
   height:15rem;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
+}
+
+.icon-orcid {
+  height:1em;
+  margin-bottom:.25em;
+  margin-left:0;
+  margin-right:.25em;
+  margin-top:0;
 }
 
 

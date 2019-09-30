@@ -21,7 +21,7 @@ active_prospective:
 
 		<nav class="nav nav-pills d-flex flex-wrap" id="bios">
 		  	<a class="nav-link" href="#PI">Principal Investigator</a>
-		  	<a class="nav-link" href="#postdoc">Post-Doctoral Scholars</a>
+		  	<!-- <a class="nav-link" href="#postdoc">Post-Doctoral Scholars</a> -->
 		  	<a class="nav-link" href="#gradstudents">Graduate Students</a>
 		  	<!-- <a class="nav-link" href="#visiting">Visiting Scholars</a> -->
 		  	<a class="nav-link" href="#alumni">Former Lab Members</a>
@@ -37,7 +37,7 @@ active_prospective:
 		<section id="PI">
 			<div class="row">
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ellis.png" alt="Ellis Meng" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/ellis.png" alt="Ellis Meng" >
 	        <h4>Ellis Meng, PhD</h4>
 	        <h5>Principal Investigator</h5>
 	        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ellis">About Ellis</button>
@@ -55,7 +55,7 @@ active_prospective:
 				      <div class="modal-body">
 				        <div class="container-fluid">
 							    <div class="row">
-							      <div class="col-lg-4"><img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ellis.png" alt="Ellis Meng" ></div>
+							      <div class="col-lg-4"><img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/ellis.png" alt="Ellis Meng" ></div>
 							      <div class="col-lg-8 align-self-center">
 							      	<p> 
 							      		Gabilan Distinguished Professorship in Science and Engineering, and Professor of Biomedical Engineering & Electrical and Computer Engineering
@@ -63,8 +63,9 @@ active_prospective:
 												2003 Ph.D. Electrical Engineering, Caltech <br>
 												1998 M.S. Electrical Engineering, Caltech <br>
 												1997 B.S. Engineering and Applied Science, Caltech <br><br>
-												ellis [dot] meng [at] usc [dot] edu
-											</p>
+												ellis [dot] meng [at] usc [dot] edu <br><br>
+												<a href="https://orcid.org/0000-0003-0981-9197"><img class="icon-orcid" src="{{ site.baseurl }}images/ORCIDiD_icon16x16.png" alt="ORCID iD">https://orcid.org/0000-0003-0981-9197</a>
+									</p>
 							      </div>
 							    </div>
 							    <hr>
@@ -85,113 +86,28 @@ active_prospective:
 			<hr>	
 		</section>
 
-<!-- POSTDOCS -->
-		<section id="postdoc">
-			<div class="row">
+<!-- POSTDOCS --> <!-- COMMENTED OUT FOR NOW, ALSO REMEMBER TO UNCOMMENT THE LINK IN SECONDARY NAVBAR -->
+
+<!--	<section id="postdoc">
+		<div class="row">
 				
-				<!-- KEE -->
-				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/kee.jpg" alt="Kee Scholten" >
-	        <h4>Kee Scholten, PhD</h4>
-	        <h5>Post-Doctoral Scholar</h5>
-	        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kee">About Kee</button>
-        </div>
-	        <!-- modal -->
-        <div class="modal fade" id="kee" tabindex="-1" role="dialog" aria-labelledby="modaltitle-kee" aria-hidden="true">
-				  <div class="modal-dialog modal-lg" role="document">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <h5 class="modal-title" id="modaltitle-kee">Kee Scholten, PhD</h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
-				      </div>
-				      <div class="modal-body">
-				        <div class="container-fluid">
-							    <div class="row">
-							      <div class="col-lg-4"><img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/kee.jpg" alt="Kee Scholten" ></div>
-							      <div class="col-lg-8 align-self-center">
-							      	<p> 
-							      		2014 Ph.D. Applied Physics, University of Michigan <br>
-										2009 B.S. Applied Physics, Caltech<br><br>
-										kscholte [at] usc [dot] edu
-									</p>
-							      </div>
-							    </div>
-							    <hr>
-							    <div class="row">
-							      <p>
-							      	Kee Scholten is a postdoctoral scholar in the Biomedical Microsystems Laboratory at the University of Southern California. Kee graduated from the California Institute of Technology (Caltech) in 2009 with a B.S. in Applied Physics. He completed his Ph.D. in Applied Physics at the University of Michigan under Professor Edward Zellers in 2014, with a research focus on gas-phase microsensors for environmental monitoring and biomedical diagnostics. His current and on-going work entails the development of implantable microsensors for use in biomedical applications. His research explores the development of micro- and nano-technology for ubiquitous chemical and biomedical sensing, with a focus on microelectromechanical systems, including microfluidic transducers for chemical sensing and flexible electrochemical interfaces for neural-machine interfaces.
-						      	</p>
-							    </div>
-							  </div>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        </div>
-				    </div>
-				  </div>
-				</div>
+		
 				
-				<!-- ALEX -->
-				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/alex.jpg" alt="Alex Baldwin" >
-			        <h4>Alex Baldwin, PhD</h4>
-			        <h5>Post-Doctoral Scholar</h5>
-			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#alex">About Alex</button>
-        		</div>
-	        <!-- modal -->
-        		<div class="modal fade" id="alex" tabindex="-1" role="dialog" aria-labelledby="modaltitle-alex" aria-hidden="true">
-					<div class="modal-dialog modal-lg" role="document">
-						<div class="modal-content">
-				    		<div class="modal-header">
-				        		<h5 class="modal-title" id="modaltitle-alex">Alex Baldwin, PhD</h5>
-				        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				        			<span aria-hidden="true">&times;</span>
-				        		</button>
-				      		</div>
-				      		<div class="modal-body">
-				        		<div class="container-fluid">
-							    	<div class="row">
-							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/alex.jpg" alt="Alex Baldwin" >
-							    		</div>
-						      			<div class="col-lg-8 align-self-center">
-									      	<p> 
-									      		2018 Ph.D. Biomedical Engineering, USC <br>
-									      		2015 M.S. Biomedical Engineering, USC <br>
-												2013 B.S. University of Arkansas <br><br>
-												abbaldwi [at] usc [dot] edu
-											</p>
-							    		</div>
-							    	</div>
-							    	<hr>
-							    	<div class="row">
-									    <p>
-									      	Alex Baldwin received a B.S. degree in electrical engineering from the University of Arkansas, Fayetteville in 2013 and the M.S. and Ph.D. degrees in biomedical engineering from the University of Southern California (USC) in 2015 and 2018, respectively. His research interests include polymer micromachining, implantable biomedical sensors, and novel microelectromechanical devices which operate using electrochemical impedance. Dr. Baldwin is a recipient of the USC Viterbi Fellowship and the Alfred E. Mann Institute Fellowship. He is currently working on improving the treatment of hydrocephalus using chronically implanted wireless sensors.
-								      	</p>
-							    	</div>
-								</div>
-				    		</div>
-				    		<div class="modal-footer">
-				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        		</div>
-				    	</div>
-					</div>
-				</div>
+
 	
 				
-			</div> <!-- close postdoc row -->
-			<hr>	
-		</section>
-
+		</div> 
+--> <!-- close postdoc row -->
+<!--		<hr>	
+	</section>
+-->
 <!-- GRADSTUDENTS -->
 		<section id="gradstudents">
 			<div class="row">
 				
 	<!-- TREVOR -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/trevor.jpg" alt="Trevor Hudson" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/trevor.jpg" alt="Trevor Hudson" >
 			        <h4>Trevor Hudson</h4>
 			        <h5>Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#trevor">About Trevor</button>
@@ -210,7 +126,7 @@ active_prospective:
 						        <div class="container-fluid">
 								    <div class="row">
 							        	<div class="col-lg-4">
-							        		<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/trevor.jpg" alt="Trevor Hudson" >
+							        		<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/trevor.jpg" alt="Trevor Hudson" >
 							        	</div>
 										<div class="col-lg-8 align-self-center">
 											<p> 
@@ -236,7 +152,7 @@ active_prospective:
 				
 	<!-- CHRIS -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/chris.jpg" alt="Christopher Larson" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/chris.jpg" alt="Christopher Larson" >
 			        <h4>Christopher Larson</h4>
 			        <h5>Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#chris">About Christopher</button>
@@ -255,7 +171,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/chris.jpg" alt="Christopher Larson" >
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/chris.jpg" alt="Christopher Larson" >
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -280,100 +196,13 @@ active_prospective:
 					</div>
 				</div>
 
-	<!-- JESS -->
-				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jessica.jpg" alt="Jessica Ortigoza" >
-			        <h4>Jessica Ortigoza</h4>
-			        <h5>Graduate Student</h5>
-			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#jessica">About Jessica</button>
-		        </div>
-	        <!-- modal -->
-        		<div class="modal fade" id="jessica" tabindex="-1" role="dialog" aria-labelledby="modaltitle-jessica" aria-hidden="true">
-					<div class="modal-dialog modal-lg" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-				        		<h5 class="modal-title" id="modaltitle-jessica">Jessica Ortigoza</h5>
-				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							        	<span aria-hidden="true">&times;</span>
-									</button>
-				      		</div>
-				      		<div class="modal-body">
-					        	<div class="container-fluid">
-									<div class="row">
-							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jessica.jpg" alt="Jessica Ortigoza">
-							    		</div>
-						    			<div class="col-lg-8 align-self-center">
-						      				<p> 
-						      					2013 B.S. Mechatronics Engineering, National Autonomous University of Mexico (UNAM)<br><br>
-												jortigoz [at] usc [dot] edu
-											</p>
-						    			</div>
-							    	</div>
-							    	<hr>
-							    	<div class="row">
-									    <p>
-									      	Jessica Ortigoza-Diaz received the B.S. degree in Mechatronics Engineering from the National Autonomous University of Mexico (UNAM) in 2013 and the M.S. degree in biomedical engineering from the University of Southern California (USC) in 2018. In 2012, She did a Summer Research Internship at the Biomedical Microsystems Lab where she worked on the development of wireless drug delivery devices. Since 2014, she joined USC, as a PhD student in Biomedical Engineering, where she was awarded the CON-USC Graduate Scholarship. She is currently working on strategies to improve dry and wet adhesion between polymer-polymer and polymer-metal interfaces to enhance polymer-based devices lifetime. Jessica enjoys traveling, football, music and movies.
-								      	</p>
-							    	</div>
-								</div>
-				    		</div>
-				    		<div class="modal-footer">
-				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        		</div>
-				    	</div>
-					</div>
-				</div>
+
 			<!-- </div> --> <!-- close row -->
 			<!-- <div class="row"> -->
-	<!-- ZACHARY -->
-				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/zachary.png" alt="Zachary Slingsby-Smith" >
-			        <h4>Zachary Slingsby-Smith</h4>
-			        <h5>Visiting Graduate Student</h5>
-			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#zachary">About Zachary</button>
-		        </div>
-	        <!-- modal -->
-        		<div class="modal fade" id="zachary" tabindex="-1" role="dialog" aria-labelledby="modaltitle-zachary" aria-hidden="true">
-					<div class="modal-dialog modal-lg" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-				        		<h5 class="modal-title" id="modaltitle-zachary">Zachary Slingsby-Smith</h5>
-				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							        	<span aria-hidden="true">&times;</span>
-									</button>
-				      		</div>
-				      		<div class="modal-body">
-					        	<div class="container-fluid">
-									<div class="row">
-							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/zachary.png" alt="Zachary Slingsby-Smith">
-							    		</div>
-						    			<div class="col-lg-8 align-self-center">
-						      				<p> 
-						      					
-						      					<br><br>
-												zssmith [at] usc [dot] edu
-											</p>
-						    			</div>
-							    	</div>
-							    	<hr>
-							    	<div class="row">
-									    <p>
-									      	Spending a year at Meng’s lab as a VEST Research Scholar with the aim of working in neural interfaces. Working towards a PhD in Electrical Engineering from Imperial College London, England. PhD main focus is on adapting a microseismometer, currently bound to Mars on the InSIght mission, for expected conditions on other planetary bodies such as Venus or Europa. Has previously worked in groups at Tsinghua, China and Tokyo-Tech, Japan. Interests include: squash, fencing, surfing, chess and reading. Will always make time for a coffee and a chat.
-								      	</p>
-							    	</div>
-								</div>
-				    		</div>
-				    		<div class="modal-footer">
-				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        		</div>
-				    	</div>
-					</div>
-				</div>
+	
 	<!-- SUE -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/xuechun.jpg" alt="Xuechun Wang" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/xuechun.jpg" alt="Xuechun Wang" >
 			        <h4>Xuechun Wang</h4>
 			        <h5>Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#xuechun">About Xuechun</button>
@@ -392,7 +221,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/xuechun.jpg" alt="Xuechun (Sue) Wang">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/xuechun.jpg" alt="Xuechun (Sue) Wang">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -418,7 +247,7 @@ active_prospective:
 
 	<!-- JAMES -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jamesyoo.jpg" alt="James Yoo">
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/jamesyoo.jpg" alt="James Yoo">
 			        <h4>James Yoo</h4>
 			        <h5>Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#james">About James</button>
@@ -437,7 +266,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jamesyoo.jpg" alt="James Yoo">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/jamesyoo.jpg" alt="James Yoo">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -465,7 +294,7 @@ active_prospective:
 
 	<!-- EUGENE -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/eugene.png" alt="Eugene Yoon" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/eugene.png" alt="Eugene Yoon" >
 			        <h4>Eugene Yoon</h4>
 			        <h5>Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#eugene">About Eugene</button>
@@ -484,7 +313,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/eugene.png" alt="Eugene Yoon">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/eugene.png" alt="Eugene Yoon">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -514,7 +343,7 @@ active_prospective:
 			<div class="row">
 				<!-- TUAN -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang" >
 			        <h4>Tuan Hoang</h4>
 			        <h5>Lab Manager</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#tuan">About Tuan</button>
@@ -533,7 +362,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -562,12 +391,60 @@ active_prospective:
 			</div>
 		</section>
 		<hr>
+		
 		<section id="alumni">
 			<div class="row">
 
+	<!-- ALEX -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/alex.jpg" alt="Alex Baldwin" >
+			        <h4>Alex Baldwin, PhD</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#alex">About Alex</button>
+        		</div>
+	        <!-- modal -->
+        		<div class="modal fade" id="alex" tabindex="-1" role="dialog" aria-labelledby="modaltitle-alex" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+				    		<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-alex">Alex Baldwin, PhD</h5>
+				        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        			<span aria-hidden="true">&times;</span>
+				        		</button>
+				      		</div>
+				      		<div class="modal-body">
+				        		<div class="container-fluid">
+							    	<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/alex.jpg" alt="Alex Baldwin" >
+							    		</div>
+						      			<div class="col-lg-8 align-self-center">
+									      	<p> 
+									      		2018 Ph.D. Biomedical Engineering, USC <br>
+									      		2015 M.S. Biomedical Engineering, USC <br>
+												2013 B.S. University of Arkansas <br><br>
+												abbaldwi [at] usc [dot] edu
+											</p>
+							    		</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	Alex Baldwin received a B.S. degree in electrical engineering from the University of Arkansas, Fayetteville in 2013 and the M.S. and Ph.D. degrees in biomedical engineering from the University of Southern California (USC) in 2015 and 2018, respectively. His research interests include polymer micromachining, implantable biomedical sensors, and novel microelectromechanical devices which operate using electrochemical impedance. Dr. Baldwin is a recipient of the USC Viterbi Fellowship and the Alfred E. Mann Institute Fellowship. He is currently working on improving the treatment of hydrocephalus using chronically implanted wireless sensors.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
 	<!-- ANGELICA -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/angelica.jpg" alt="Angelica Cobo" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/angelica.jpg" alt="Angelica Cobo" >
 			        <h4>Angelica Cobo, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#angelica">About Angelica</button>
@@ -586,7 +463,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/angelica.jpg" alt="Angelica Cobo">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/angelica.jpg" alt="Angelica Cobo">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -608,7 +485,7 @@ active_prospective:
 		
 	<!-- HEIDI -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/heidi.png" alt="Heidi Gensler" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/heidi.png" alt="Heidi Gensler" >
 			        <h4>Heidi Gensler, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#heidi">About Heidi</button>
@@ -627,7 +504,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/heidi.png" alt="Heidi Gensler">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/heidi.png" alt="Heidi Gensler">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -650,7 +527,7 @@ active_prospective:
 
 	<!-- CHRISTIAN -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/christian.png" alt="Christian Gutierrez" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/christian.png" alt="Christian Gutierrez" >
 			        <h4>Christian Gutierrez, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#christian">About Christian</button>
@@ -669,7 +546,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/christian.png" alt="Christian Gutierrez">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/christian.png" alt="Christian Gutierrez">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -691,7 +568,7 @@ active_prospective:
 
 	<!-- SETH -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/seth.png" alt="Seth Hara" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/seth.png" alt="Seth Hara" >
 			        <h4>Seth Hara, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#seth">About Seth</button>
@@ -710,7 +587,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/seth.png" alt="Seth Hara">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/seth.png" alt="Seth Hara">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -732,7 +609,7 @@ active_prospective:
 
 	<!-- BRIAN -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brian.png" alt="Brian Kim" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/brian.png" alt="Brian Kim" >
 			        <h4>Brian Kim, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#brian">About Brian</button>
@@ -751,7 +628,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brian.png" alt="Brian Kim">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/brian.png" alt="Brian Kim">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -773,7 +650,7 @@ active_prospective:
 
 	<!-- JONATHAN -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jonathan.png" alt="Jonathan Kuo" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/jonathan.png" alt="Jonathan Kuo" >
 			        <h4>Jonathan Kuo, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#jonathan">About Jonathan</button>
@@ -792,7 +669,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/jonathan.png" alt="Jonathan Kuo">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/jonathan.png" alt="Jonathan Kuo">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -814,7 +691,7 @@ active_prospective:
 
 	<!-- CURTIS -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/curtis.png" alt="Curtis Lee" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/curtis.png" alt="Curtis Lee" >
 			        <h4>Curtis Lee, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#curtis">About Curtis</button>
@@ -833,7 +710,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/curtis.png" alt="Curtis Lee">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/curtis.png" alt="Curtis Lee">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -855,7 +732,7 @@ active_prospective:
 
 	<!-- BRIAN LI -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brianli.jpg" alt="Po-Ying 'Brian' Li" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/brianli.jpg" alt="Po-Ying 'Brian' Li" >
 			        <h4>Po-Ying "Brian" Li, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#brianli">About Brian</button>
@@ -874,7 +751,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/brianli.jpg" alt="Po-Ying 'Brian' Li">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/brianli.jpg" alt="Po-Ying 'Brian' Li">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -897,7 +774,7 @@ active_prospective:
 						    	
 	<!-- RONALEE -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ronalee.jpg" alt="Ronalee Lo" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/ronalee.jpg" alt="Ronalee Lo" >
 			        <h4>Ronalee Lo, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ronalee">About Ronalee</button>
@@ -916,7 +793,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ronalee.jpg" alt="Ronalee Lo">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/ronalee.jpg" alt="Ronalee Lo">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -936,9 +813,101 @@ active_prospective:
 					</div>
 				</div>								
 
+	<!-- JESS -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/jessica.jpg" alt="Jessica Ortigoza" >
+			        <h4>Jessica Ortigoza</h4>
+			        <h5>Former Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#jessica">About Jessica</button>
+		        </div>
+	        <!-- modal -->
+        		<div class="modal fade" id="jessica" tabindex="-1" role="dialog" aria-labelledby="modaltitle-jessica" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-jessica">Jessica Ortigoza</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/jessica.jpg" alt="Jessica Ortigoza">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2019 Ph.D. Biomedical Engineering, USC <br>
+						      					2013 B.S. Mechatronics Engineering, National Autonomous University of Mexico (UNAM)<br><br>
+												jortigoz [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	Jessica Ortigoza-Diaz received the B.S. degree in Mechatronics Engineering from the National Autonomous University of Mexico (UNAM) in 2013 and the M.S. degree in biomedical engineering from the University of Southern California (USC) in 2018. In 2012, She did a Summer Research Internship at the Biomedical Microsystems Lab where she worked on the development of wireless drug delivery devices. Since 2014, she joined USC, as a PhD student in Biomedical Engineering, where she was awarded the CON-USC Graduate Scholarship. She is currently working on strategies to improve dry and wet adhesion between polymer-polymer and polymer-metal interfaces to enhance polymer-based devices lifetime. Jessica enjoys traveling, football, music and movies.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- KEE -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/kee.jpg" alt="Kee Scholten" >
+		        	<h4>Kee Scholten, PhD</h4>
+		        	<h5>Former Post-Doctoral Scholar</h5>
+		        	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kee">About Kee</button>
+	        	</div>
+		        <!-- modal -->
+	        	<div class="modal fade" id="kee" tabindex="-1" role="dialog" aria-labelledby="modaltitle-kee" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+					    <div class="modal-content">
+					    	<div class="modal-header">
+					        	<h5 class="modal-title" id="modaltitle-kee">Kee Scholten, PhD</h5>
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          		<span aria-hidden="true">&times;</span>
+					        	</button>
+					      	</div>
+						    <div class="modal-body">
+						    	<div class="container-fluid">
+									<div class="row">
+										<div class="col-lg-4">
+											<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/kee.jpg" alt="Kee Scholten" >
+										</div>
+										<div class="col-lg-8 align-self-center">
+										  	<p> 
+										  		2014 Ph.D. Applied Physics, University of Michigan <br>
+												2009 B.S. Applied Physics, Caltech<br><br>
+												kscholte [at] usc [dot] edu
+											</p>
+										</div>
+								    </div>
+									<hr>
+									<div class="row">
+										<p>
+									      	Kee Scholten is a postdoctoral scholar in the Biomedical Microsystems Laboratory at the University of Southern California. Kee graduated from the California Institute of Technology (Caltech) in 2009 with a B.S. in Applied Physics. He completed his Ph.D. in Applied Physics at the University of Michigan under Professor Edward Zellers in 2014, with a research focus on gas-phase microsensors for environmental monitoring and biomedical diagnostics. His current and on-going work entails the development of implantable microsensors for use in biomedical applications. His research explores the development of micro- and nano-technology for ubiquitous chemical and biomedical sensing, with a focus on microelectromechanical systems, including microfluidic transducers for chemical sensing and flexible electrochemical interfaces for neural-machine interfaces.
+								      	</p>
+								    </div>
+								</div>
+						    </div>
+						    <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        </div>
+					    </div>
+					</div>
+				</div>
+
 	<!-- ROYA -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/roya.png" alt="Roya Sheybani" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/roya.png" alt="Roya Sheybani" >
 			        <h4>Roya Sheybani, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#roya">About Roya</button>
@@ -957,7 +926,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/roya.png" alt="Roya Sheybani">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/roya.png" alt="Roya Sheybani">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -976,9 +945,55 @@ active_prospective:
 					</div>
 				</div>
 
-	<!-- BRIAN -->
+	<!-- ZACHARY -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ahuva.jpg" alt="Ahuva Weltman Hirschberg" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/zachary.png" alt="Zachary Slingsby-Smith" >
+			        <h4>Zachary Slingsby-Smith</h4>
+			        <h5>Former Visiting Graduate Student</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#zachary">About Zachary</button>
+		        </div>
+	        <!-- modal -->
+        		<div class="modal fade" id="zachary" tabindex="-1" role="dialog" aria-labelledby="modaltitle-zachary" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-zachary">Zachary Slingsby-Smith</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/zachary.png" alt="Zachary Slingsby-Smith">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					
+						      					<br><br>
+												zssmith [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	Spending a year at Meng’s lab as a VEST Research Scholar with the aim of working in neural interfaces. Working towards a PhD in Electrical Engineering from Imperial College London, England. PhD main focus is on adapting a microseismometer, currently bound to Mars on the InSIght mission, for expected conditions on other planetary bodies such as Venus or Europa. Has previously worked in groups at Tsinghua, China and Tokyo-Tech, Japan. Interests include: squash, fencing, surfing, chess and reading. Will always make time for a coffee and a chat.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>
+
+	<!-- AHUVA -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/ahuva.jpg" alt="Ahuva Weltman Hirschberg" >
 			        <h4>Ahuva Weltman Hirschberg, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ahuva">About Ahuva</button>
@@ -997,7 +1012,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/ahuva.jpg" alt="Ahuva Weltman Hirschberg">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/ahuva.jpg" alt="Ahuva Weltman Hirschberg">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
@@ -1018,7 +1033,7 @@ active_prospective:
 
 	<!-- LAWRENCE -->
 				<div class="col-lg-4">
-					<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/lawrence.jpg" alt="Lawrence Yu" >
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/lawrence.jpg" alt="Lawrence Yu" >
 			        <h4>Lawrence Yu, PhD</h4>
 			        <h5>Former Graduate Student</h5>
 			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#lawrence">About Lawrence</button>
@@ -1037,7 +1052,7 @@ active_prospective:
 					        	<div class="container-fluid">
 									<div class="row">
 							    		<div class="col-lg-4">
-							    			<img class="rounded-circle shadow" src="{{ site.baseurl }}images/people/lawrence.jpg" alt="Lawrence Yu">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/lawrence.jpg" alt="Lawrence Yu">
 							    		</div>
 						    			<div class="col-lg-8 align-self-center">
 						      				<p> 
