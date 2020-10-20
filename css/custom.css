@@ -74,6 +74,11 @@ h1 a:hover {
 .secondary-navbar a {
   color: #ffcc00;
 }
+
+.dropdown-toggle {
+  border-style: none;
+}
+
 .nav-pills .nav-link.active {
   /*outline: .1px solid #990000;*/ /*dark version*/
   /*background-color: #151515;*/ /*dark version*/
