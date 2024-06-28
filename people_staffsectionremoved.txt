@@ -1,0 +1,109 @@
+
+<!-- STAFF --> 
+	<section id="staff">
+		<div class="row">
+
+
+	<!-- KEE -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/kee.jpg" alt="Kee Scholten" >
+		        	<h4>Kee Scholten, PhD</h4>
+		        	<h5>Senior Research Associate</h5>
+		        	<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kee">About Kee</button>
+	        	</div>
+		        <!-- modal -->
+	        	<div class="modal fade" id="kee" tabindex="-1" role="dialog" aria-labelledby="modaltitle-kee" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+					    <div class="modal-content">
+					    	<div class="modal-header">
+					        	<h5 class="modal-title" id="modaltitle-kee">Kee Scholten, PhD</h5>
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          		<span aria-hidden="true">&times;</span>
+					        	</button>
+					      	</div>
+						    <div class="modal-body">
+						    	<div class="container-fluid">
+									<div class="row">
+										<div class="col-lg-4">
+											<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/kee.jpg" alt="Kee Scholten" >
+										</div>
+										<div class="col-lg-8 align-self-center">
+										  	<p> 
+										  		2014 Ph.D. Applied Physics, University of Michigan <br>
+												2009 B.S. Applied Physics, Caltech<br><br>
+												kscholte [at] usc [dot] edu
+											</p>
+										</div>
+								    </div>
+									<hr>
+									<div class="row">
+										<p>
+									      	Kee Scholten is a postdoctoral scholar in the Biomedical Microsystems Laboratory at the University of Southern California. Kee graduated from the California Institute of Technology (Caltech) in 2009 with a B.S. in Applied Physics. He completed his Ph.D. in Applied Physics at the University of Michigan under Professor Edward Zellers in 2014, with a research focus on gas-phase microsensors for environmental monitoring and biomedical diagnostics. His current and on-going work entails the development of implantable microsensors for use in biomedical applications. His research explores the development of micro- and nano-technology for ubiquitous chemical and biomedical sensing, with a focus on microelectromechanical systems, including microfluidic transducers for chemical sensing and flexible electrochemical interfaces for neural-machine interfaces.
+								      	</p>
+								    </div>
+								</div>
+						    </div>
+						    <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        </div>
+					    </div>
+					</div>
+				</div>
+
+	<!-- TUAN -->
+				<div class="col-lg-4">
+					<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang" >
+			        <h4>Tuan Hoang</h4>
+			        <h5>Lab Manager</h5>
+			        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#tuan">About Tuan</button>
+		        </div>
+			<!-- modal -->
+        		<div class="modal fade" id="tuan" tabindex="-1" role="dialog" aria-labelledby="modaltitle-tuan" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+				        		<h5 class="modal-title" id="modaltitle-tuan">Tuan Hoang</h5>
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        	<span aria-hidden="true">&times;</span>
+									</button>
+				      		</div>
+				      		<div class="modal-body">
+					        	<div class="container-fluid">
+									<div class="row">
+							    		<div class="col-lg-4">
+							    			<img class="rounded-circle shadow headshot" src="{{ site.baseurl }}images/people/tuan.jpg" alt="Tuan Hoang">
+							    		</div>
+						    			<div class="col-lg-8 align-self-center">
+						      				<p> 
+						      					2007 Ph.D. Neuroscience, UCLA <br>
+												1995 B.S. Biological Science, Caltech <br><br>
+												tuanqhoa [at] usc [dot] edu
+											</p>
+						    			</div>
+							    	</div>
+							    	<hr>
+							    	<div class="row">
+									    <p>
+									      	As an undergraduate, Tuan was involved in several research projects at Caltech. In the laboratory of John Abelson, Ph.D., he screened mRNA splicing mutants of S. cerevesiae to isolate and characterize new proteins involved in the spliceosome complex. He also worked with Howard Lipshitz, Ph.D., purifying and measuring heat shock protein(HSP) 83 protein gradient in developing Drosophila melanogaster embryos to evaluate its expression. In addition, he conducted E.M.S. mutagenesis of Drosophila melanogaster to generate a bank of mutant strains of the Hindsight gene. After graduation from Caltech, he joined the Magnetic Resonance Spectroscopy Laboratory of Brian Ross, M.D., Ph.D., F.R.C.S. at the Huntingtin Medical Research Institute. He performed in vivo proton MRI and MRS brain exams on patients with Alzheimer's, PML,Parkinson's (PD), and Huntington's diseases (HD) to study the biochemical pathology. Furthermore, he assessed short term changes of free choline metabolite concentrations in the brain following oral ingestion of choline supplements using quantitative 31P MRS(spectroscopy). Also, he monitored major cellular metabolites in vivo of tissue neural transplants in HD and PD patients using MRI and MRS to determine viability and proliferation. 
+									      	<br><br>
+											As a doctoral graduate student at UCLA, Tuan worked with Jeff Twiss, M.D., Ph.D. and Carolyn Schanen, M.D., Ph.D. to screened for mRNA mutants of IT15 gene using RT-PCR, SSCP and ASO analyses. In addition, he generated eukaryotic expression plasmid constructs carrying wild-type and mutated forms (by site-directed mutagenesis) of Trk A nerve growth factor (NGF) receptor cDNA for transient transfection of neuronal cells.　Tuan joined the laboratory of Marie-Françoise Chesselet, M.D., Ph.D., who focuses on rodent models of human neurodegenerative diseases, including PD. and HD. His dissertation was based on a collaboration with the laboratory of Serge Przedborski, M.D., Ph.D. at Columbia. The main thrust was to study the mechanisms of MPTP-induced degeneration of dopaminergic neurons in mice. He assessed the level of DNA damage induced by systemic MPTP injection in the substantia nigra of several PD mice models using in situ nick translation and light microscopy. In addition, he performed radioligand saturation binding experiments for dopamine transporters in the striatum of MPTP-treated genetically-engineered mice models of Parkinson’s disease.
+								      	</p>
+							    	</div>
+								</div>
+				    		</div>
+				    		<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        		</div>
+				    	</div>
+					</div>
+				</div>		
+		
+				
+
+	
+				
+		</div> 
+<!-- close staff row -->
+		<hr>	
+	</section>
+
