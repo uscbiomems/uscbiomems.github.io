@@ -1,8 +1,8 @@
 # biomems.usc.edu - Website of the Biomedical Microsystems Laboratory at USC
 
-The website files are stored and managed in the repository https://github.com/uscbiomems/uscbiomems.github.io. To get editing privileges, contact larsonce@usc.edu.
+The website files are stored and managed in the repository https://github.com/uscbiomems/uscbiomems.github.io. To get editing privileges, contact er88866@usc.edu.
 
-GitHub Pages website launched 20180725 by larsonce@usc.edu
+GitHub Pages website launched 20180725 by larsonce@usc.edu. Currently managed by er88866@usc.edu.
 
 ## Development/maintenance notes for future website superusers of the lab:
 
