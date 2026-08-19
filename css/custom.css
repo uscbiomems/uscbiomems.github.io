@@ -265,3 +265,27 @@ section:before {
   max-height: 25rem;
   margin: 1rem;
 }
+
+/* People titles
+-------------------------------------------------- */
+/* People page section headings */
+.people-section-heading {
+    width: 100%;
+    margin: 2.5rem 0 1.5rem;
+}
+
+.people-section-heading h2 {
+    margin: 0 0 0.75rem;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #353535;
+    text-align: left;
+}
+
+.people-section-heading hr {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-top: 2px solid #990000;
+}
